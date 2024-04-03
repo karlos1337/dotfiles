@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+
+## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
+##
+## Autostart Programs
+
+# Kill already running process
+_ps=(waybar mako xfce-polkit)
+for _prs in "${_ps[@]}"; do
+	if [[ $(pidof ${_prs}) ]]; then
+		killall -9 ${_prs}
+	fi
+done
+
+# Polkit agent
+/usr/lib/xfce-polkit/xfce-polkit &
+
+# Set wallpaper
+hyprpaper &
+
+# Apply themes
+~/.config/hypr/scripts/gtkthemes &
+
+# Lauch notification daemon (mako)
+~/.config/hypr/scripts/notifications &
+
+# Launch startup apps
+pasystray &
+blueman-applet &
+gammastep-indicator &
+
+# Launch clipboard
+wl-paste --type text --watch cliphist store &
+wl-paste --type image --watch cliphist store &
+
+# Lauch statusbar (waybar)
+~/.config/hypr/scripts/statusbar &
+
+# Launch portal
+# ~/.config/hypr/scripts/portal &
