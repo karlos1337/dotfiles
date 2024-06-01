@@ -3,7 +3,7 @@ return {
   config = function()
     local lspconfig = require("lspconfig")
     lspconfig.harper_ls.setup({
-      filetypes = { "markdown", "text", "lua" },
+      filetypes = { "markdown", "text" },
     })
   end,
 }
