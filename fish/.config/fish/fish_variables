@@ -2,8 +2,8 @@
 # VERSION: 3.0
 SETUVAR --export BROWSER:firefox
 SETUVAR --export EDITOR:nvim
-SETUVAR --export SSH_AGENT_PID:7521
-SETUVAR --export SSH_AUTH_SOCK:/tmp/ssh\x2dXXXXXXROx04Y/agent\x2e7520
+SETUVAR --export SSH_AGENT_PID:2527
+SETUVAR --export SSH_AUTH_SOCK:/tmp/ssh\x2dXXXXXXFM7W5s/agent\x2e2526
 SETUVAR --export VISUAL:firefox
 SETUVAR __fish_initialized:3400
 SETUVAR fish_color_autosuggestion:brblack
