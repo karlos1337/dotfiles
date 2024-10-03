@@ -37,4 +37,4 @@ wl-paste --type image --watch cliphist store &
 ~/.config/hypr/scripts/statusbar &
 
 # Launch portal
-# ~/.config/hypr/scripts/portal &
+~/.config/hypr/scripts/portal &

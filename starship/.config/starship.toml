@@ -1,3 +1,12 @@
+
+[custom.nvm]
+command = 'echo "[NVM ALERT]"'
+when = '''
+[ -f .nvmrc ] && [ "$(node -v)" != "$(cat .nvmrc)" ]
+'''
+style = 'bold fg:white bg:red'
+format = '[$output]($style)'
+
 [aws]
 symbol = "  "
 

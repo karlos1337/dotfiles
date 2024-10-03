@@ -19,6 +19,9 @@
     "margin-right": 0, 				// Space to the right of the bar
     "fixed-center": true, 			// Center modules position
     "ipc": true, 					// Control waybar with `swaymsg bar` commands
+    "clock": {
+      "timezone": "Europe/Madrid",
+    },
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces" ],
     "modules-center": [ "cpu", "cpu#2", "memory", "memory#2", "disk", "disk#2" ],
