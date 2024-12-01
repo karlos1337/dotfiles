@@ -1,11 +1,17 @@
 
 [custom.nvm]
-command = 'echo "[NVM ALERT]"'
+command = 'echo "[NVM ALERT] "'
 when = '''
-[ -f .nvmrc ] && [ "$(node -v)" != "$(cat .nvmrc)" ]
+[ -f .nvmrc ] && ! node -e '
+  const nvmrc = require("fs").readFileSync(".nvmrc", "utf8").trim().replace(/^v/, "");
+  const current = process.version.replace(/^v/, "");
+  const semver = require("semver");
+  process.exit(semver.satisfies(current, nvmrc) ? 0 : 1);
+'
 '''
 style = 'bold fg:white bg:red'
 format = '[$output]($style)'
+ignore_timeout = true
 
 [aws]
 symbol = "  "
