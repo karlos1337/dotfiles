@@ -1,6 +1,0 @@
-#!/bin/bash
-DIR="$HOME/.config/hypr"
-rofi -dmenu -i \
-		 -no-fixed-num-lines \
-		 -p "Are You Sure?" \
-		 -theme "$DIR"/rofi/themes/confirm.rasi
