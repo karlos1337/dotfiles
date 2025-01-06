@@ -14,7 +14,9 @@ return {
   },
   config = function()
     require("codecompanion").setup {
-      language = "es",
+      opts = {
+        language = "Spanish",
+      },
       strategies = {
         chat = {
           adapter = "anthropic",
