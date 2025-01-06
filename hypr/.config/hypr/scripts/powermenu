@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-
-if [[ ! `pidof rofi` ]]; then
-   $HOME/.config/hypr/rofi/bin/powermenu 
-else
-    pkill rofi
-fi
