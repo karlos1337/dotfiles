@@ -41,4 +41,6 @@ return {
   { import = "astrocommunity.recipes.telescope-lsp-mappings" },
 
   { import = "astrocommunity.utility.noice-nvim" },
+
+  { import = "astrocommunity.editing-support.vim-visual-multi" },
 }
