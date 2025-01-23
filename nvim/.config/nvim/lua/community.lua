@@ -5,8 +5,6 @@ return {
 
   { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
 
-  -- { import = "astrocommunity.file-explorer.mini-files" },
-
   { import = "astrocommunity.git.blame-nvim" },
 
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
@@ -14,6 +12,7 @@ return {
 
   { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.motion.marks-nvim" },
+  { import = "astrocommunity.motion.mini-surround" },
 
   { import = "astrocommunity.pack.angular" },
   { import = "astrocommunity.pack.astro" },
