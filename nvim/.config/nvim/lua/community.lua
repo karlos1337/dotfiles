@@ -5,7 +5,7 @@ return {
 
   { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
 
-  { import = "astrocommunity.file-explorer.mini-files" },
+  -- { import = "astrocommunity.file-explorer.mini-files" },
 
   { import = "astrocommunity.git.blame-nvim" },
 

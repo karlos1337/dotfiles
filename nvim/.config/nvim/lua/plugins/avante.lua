@@ -12,6 +12,14 @@ return {
       temperature = 0,
       max_tokens = 4096,
     },
+    openai = {
+      endpoint = "https://api.deepseek.com/v1",
+      model = "deepseek-reasoner",
+      timeout = 30000,
+      temperature = 0,
+      max_tokens = 4096,
+      api_key_name = "DEEPSEEK_API_KEY",
+    },
   },
   dependencies = {
     "stevearc/dressing.nvim",

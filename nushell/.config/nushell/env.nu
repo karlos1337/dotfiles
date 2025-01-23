@@ -132,3 +132,6 @@ $env.PATH = ($env.PATH | split row (char esep) | append [($env.HOME | path join 
 
 ## anthropic
 $env.ANTHROPIC_API_KEY = (open ~/Documentos/anthropic-api | str trim)
+
+## deepseek
+$env.DEEPSEEK_API_KEY = (open ~/Documentos/deepseek-api | str trim)
