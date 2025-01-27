@@ -54,7 +54,7 @@ return {
   },
   opts = {
     modes = {
-      search = { enalbed = true },
+      search = { enabled = true },
     },
   },
 }
