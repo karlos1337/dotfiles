@@ -1,3 +1,7 @@
 [[manager.prepend_keymap]]
 on = "L"
 run = "open"
+
+[[manager.prepend_keymap]]
+on = "<Esc>"
+run = "quit"
