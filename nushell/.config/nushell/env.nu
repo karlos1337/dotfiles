@@ -103,7 +103,7 @@ $env.PATH = ($env.PATH | split row (char esep) | append [
 $env.PATH = ($env.PATH | split row (char esep) | append [($env.HOME | path join ".rbenv/shims")]) 
 
 ## anthropic
-$env.ANTHROPIC_API_KEY = (open ~/Documentos/anthropic-api | str trim)
+$env.ANTHROPIC_API_KEY = (open ~/.api-keys/anthropic-api | str trim)
 
 ## deepseek
-$env.DEEPSEEK_API_KEY = (open ~/Documentos/deepseek-api | str trim)
+$env.DEEPSEEK_API_KEY = (open ~/.api-keys/deepseek-api | str trim)
