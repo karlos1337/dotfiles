@@ -9,7 +9,7 @@
 
 # Apply theme
 
-source ~/.config/nushell/onedark-theme.nu
+source ./onedark-theme.nu
 
 # The default config record. This is where much of your global configuration is setup.
 $env.config = {
@@ -103,7 +103,7 @@ $env.config = {
 
     footer_mode: 25 # always, never, number_of_rows, auto
     float_precision: 2 # the precision for displaying floats in tables
-    buffer_editor: null # command that will be used to edit the current line buffer with ctrl+o, if unset fallback to $env.VISUAL and $env.EDITOR
+    buffer_editor: "nvim" # command that will be used to edit the current line buffer with ctrl+o, if unset fallback to $env.VISUAL and $env.EDITOR
     use_ansi_coloring: true
     bracketed_paste: true # enable bracketed paste, currently useless on windows
     edit_mode: vi # emacs, vi

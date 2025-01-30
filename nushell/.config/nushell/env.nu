@@ -71,6 +71,9 @@ $env.NU_PLUGIN_DIRS = [
 # To load from a custom file you can use:
 # source ($nu.default-config-dir | path join 'custom.nu')
 
+# Local
+$env.PATH = ($env.PATH | split row (char esep) | append "/usr/local/bin")
+
 # Carapace config
 $env.CARAPACE_BRIDGES = 'zsh,fish,bash,intellisense'
 mkdir ~/.cache/carapace
@@ -81,11 +84,9 @@ mkdir ~/.cache/starship
 starship init nu | save -f ~/.cache/starship/init.nu
 
 # SSH config
-$env.SSH_AUTH_SOCK = $"($env.XDG_RUNTIME_DIR)/ssh-agent.socket"
-
-# TDO config
-$env.NOTES_DIR = "~/Workspace/notes"
-$env.PATH = ($env.PATH | split row (char esep) | append ($env.HOME + "/.local/bin"))
+if ($env | get -i XDG_RUNTIME_DIR) != null {
+    $env.SSH_AUTH_SOCK = $"($env.XDG_RUNTIME_DIR)/ssh-agent.socket"
+}
 
 # Android config
 $env.ANDROID_HOME = ($env.HOME + "/Android/Sdk")
