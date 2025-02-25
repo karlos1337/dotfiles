@@ -7,7 +7,7 @@ return {
     provider = "claude",
     auto_suggestions_provider = "claude",
     claude = {
-      model = "claude-3-5-sonnet-20241022",
+      model = "claude-3-7-sonnet-20250219",
       endpoint = "https://api.anthropic.com",
       temperature = 0,
       max_tokens = 4096,
