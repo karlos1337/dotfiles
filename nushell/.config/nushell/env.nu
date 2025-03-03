@@ -71,6 +71,13 @@ $env.NU_PLUGIN_DIRS = [
 # To load from a custom file you can use:
 # source ($nu.default-config-dir | path join 'custom.nu')
 
+# System
+$env.EDITOR = "nvim"
+$env.VISUAL = "nvim"
+
+# Docker rootless
+$env.DOCKER_HOST = $"unix://($env.XDG_RUNTIME_DIR)/docker.sock"
+
 # Local
 $env.PATH = ($env.PATH | split row (char esep) | append "/usr/local/bin")
 
@@ -107,3 +114,8 @@ $env.ANTHROPIC_API_KEY = (open ~/.api-keys/anthropic-api | str trim)
 
 ## deepseek
 $env.DEEPSEEK_API_KEY = (open ~/.api-keys/deepseek-api | str trim)
+
+## fnm
+use std "path add"
+fnm env --json | from json | load-env
+path add ($env.FNM_MULTISHELL_PATH + "/bin")
