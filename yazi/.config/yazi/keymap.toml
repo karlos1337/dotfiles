@@ -1,7 +1,12 @@
-[[manager.prepend_keymap]]
-on = "L"
-run = "open"
-
-[[manager.prepend_keymap]]
-on = "<Esc>"
-run = "quit"
+[manager]
+prepend_keymap = [
+  { on = "L", run = "open" },
+  { on = "<Esc>", run = "quit" },
+  { on = "M", run = "plugin mount" },
+  { on = [
+    "<Right>",
+  ], run = "plugin fuse-archive --args=mount", desc = "Enter or Mount selected archive" },
+  { on = [
+    "<Left>",
+  ], run = "plugin fuse-archive --args=unmount", desc = "Leave or Unmount selected archive" },
+]
