@@ -768,6 +768,9 @@ source ~/.cache/carapace/init.nu
 # Starship config
 use ~/.cache/starship/init.nu
 
+# Atuin
+source ~/.local/share/atuin/init.nu
+
 # fnm config
 $env.config.hooks.env_change.PWD = [...$env.config.hooks.env_change.PWD
     { |_, after|
@@ -775,3 +778,4 @@ $env.config.hooks.env_change.PWD = [...$env.config.hooks.env_change.PWD
           fnm use --silent-if-unchanged
       }
     }]
+
