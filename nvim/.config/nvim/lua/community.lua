@@ -1,3 +1,7 @@
+-- AstroCommunity: import any community modules here
+-- We import this file in `lazy_setup.lua` before the `plugins/` folder.
+-- This guarantees that the specs are processed before any user plugins.
+
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
@@ -23,7 +27,7 @@ return {
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.nix" },
   { import = "astrocommunity.pack.prisma" },
-  { import = "astrocommunity.pack.ruby" },
+  -- { import = "astrocommunity.pack.ruby" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.sql" },
   { import = "astrocommunity.pack.svelte" },
@@ -33,10 +37,9 @@ return {
   { import = "astrocommunity.pack.xml" },
   { import = "astrocommunity.pack.yaml" },
 
-  { import = "astrocommunity.recipes.telescope-nvchad-theme" },
+  { import = "astrocommunity.recipes.picker-nvchad-theme" },
   { import = "astrocommunity.recipes.vscode" },
   { import = "astrocommunity.recipes.disable-tabline" },
-  { import = "astrocommunity.recipes.telescope-lsp-mappings" },
 
   { import = "astrocommunity.utility.noice-nvim" },
 
