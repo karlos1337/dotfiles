@@ -109,13 +109,16 @@ $env.PATH = ($env.PATH | split row (char esep) | append [
 ## rbenv config
 $env.PATH = ($env.PATH | split row (char esep) | prepend [($env.HOME | path join ".rbenv/shims")]) 
 
-## anthropic
+## api-keys
 $env.ANTHROPIC_API_KEY = (open ~/.api-keys/anthropic-api | str trim)
-
-## deepseek
 $env.DEEPSEEK_API_KEY = (open ~/.api-keys/deepseek-api | str trim)
+$env.GROQ_API_KEY = (open ~/.api-keys/groq-api | str trim)
 
 ## fnm
 use std "path add"
 fnm env --json | from json | load-env
 path add ($env.FNM_MULTISHELL_PATH + "/bin")
+
+## dvm
+$env.DVM_DIR = ($env.HOME + "/.dvm")
+$env.PATH = ($env.PATH | split row (char esep) | prepend ($env.DVM_DIR | path join "bin") )
