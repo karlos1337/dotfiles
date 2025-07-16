@@ -7,17 +7,15 @@ return {
     provider = "claude",
     cursor_applying_provider = "groq",
     auto_suggestions_provider = "claude",
-    claude = {
-      model = "claude-3-7-sonnet-latest",
-      endpoint = "https://api.anthropic.com",
-      temperature = 1,
-      max_tokens = 20000,
-    },
-    behaviour = {
-      enable_claude_text_editor_tool_mode = true,
-      enable_cursor_planning_mode = true,
-    },
-    vendors = {
+    providers = {
+      claude = {
+        model = "claude-sonnet-4-20250514",
+        endpoint = "https://api.anthropic.com",
+        extra_request_body = {
+          temperature = 1,
+          max_tokens = 20000,
+        },
+      },
       groq = {
         __inherited_from = "openai",
         api_key_name = "GROQ_API_KEY",
@@ -26,7 +24,7 @@ return {
       },
       claude_thought = {
         __inherited_from = "claude",
-        model = "claude-3-7-sonnet-latest",
+        model = "claude-sonnet-4-20250514",
         thinking = {
           type = "enabled",
           budget_tokens = 2048,
@@ -37,10 +35,16 @@ return {
         endpoint = "https://api.deepseek.com/v1",
         model = "deepseek-reasoner",
         timeout = 30000,
-        temperature = 0,
         max_tokens = 4096,
         api_key_name = "DEEPSEEK_API_KEY",
+        extra_request_body = {
+          temperature = 0,
+        },
       },
+    },
+    behaviour = {
+      enable_claude_text_editor_tool_mode = true,
+      enable_cursor_planning_mode = true,
     },
   },
   dependencies = {

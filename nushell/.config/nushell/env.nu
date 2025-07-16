@@ -113,6 +113,7 @@ $env.PATH = ($env.PATH | split row (char esep) | prepend [($env.HOME | path join
 $env.ANTHROPIC_API_KEY = (open ~/.api-keys/anthropic-api | str trim)
 $env.DEEPSEEK_API_KEY = (open ~/.api-keys/deepseek-api | str trim)
 $env.GROQ_API_KEY = (open ~/.api-keys/groq-api | str trim)
+$env.TAVILY_API_KEY = (open ~/.api-keys/tavily-api | str trim)
 
 ## fnm
 use std "path add"
@@ -122,3 +123,7 @@ path add ($env.FNM_MULTISHELL_PATH + "/bin")
 ## dvm
 $env.DVM_DIR = ($env.HOME + "/.dvm")
 $env.PATH = ($env.PATH | split row (char esep) | prepend ($env.DVM_DIR | path join "bin") )
+
+## bun
+$env.BUN_DIR = ($env.HOME + "/.bun")
+$env.PATH = ($env.PATH | split row (char esep) | append ($env.BUN_DIR | path join "bin") )

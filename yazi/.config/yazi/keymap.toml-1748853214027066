@@ -1,4 +1,4 @@
-[mgr]
+[manager]
 prepend_keymap = [
   { on = "L", run = "open" },
   { on = "<Esc>", run = "quit" },
