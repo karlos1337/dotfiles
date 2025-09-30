@@ -11,6 +11,8 @@ return {
 
   { import = "astrocommunity.git.blame-nvim" },
 
+  { import = "astrocommunity.docker.lazydocker" },
+
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
 
@@ -25,6 +27,7 @@ return {
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.markdown" },
+  { import = "astrocommunity.pack.nushell" },
   { import = "astrocommunity.pack.nix" },
   { import = "astrocommunity.pack.prisma" },
   -- { import = "astrocommunity.pack.ruby" },
@@ -38,8 +41,11 @@ return {
   { import = "astrocommunity.pack.yaml" },
 
   { import = "astrocommunity.recipes.picker-nvchad-theme" },
+  { import = "astrocommunity.recipes.picker-lsp-mappings" },
   { import = "astrocommunity.recipes.vscode" },
   { import = "astrocommunity.recipes.disable-tabline" },
+
+  { import = "astrocommunity.scrolling.mini-animate" },
 
   { import = "astrocommunity.utility.noice-nvim" },
 

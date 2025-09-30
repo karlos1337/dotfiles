@@ -1,3 +1,5 @@
+if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+
 return {
   "yetone/avante.nvim",
   event = "VeryLazy",
@@ -15,20 +17,16 @@ return {
           temperature = 1,
           max_tokens = 20000,
         },
+        thinking = {
+          type = "enabled",
+          budget_tokens = 2048,
+        },
       },
       groq = {
         __inherited_from = "openai",
         api_key_name = "GROQ_API_KEY",
         endpoint = "https://api.groq.com/openai/v1",
         model = "llama-3.3-70b-versatile",
-      },
-      claude_thought = {
-        __inherited_from = "claude",
-        model = "claude-sonnet-4-20250514",
-        thinking = {
-          type = "enabled",
-          budget_tokens = 2048,
-        },
       },
       deepseek = {
         __inherited_from = "openai",

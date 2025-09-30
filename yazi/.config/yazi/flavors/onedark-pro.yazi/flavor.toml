@@ -1,0 +1,86 @@
+[flavor]
+name = "One Dark Pro"
+author = "you"
+dark = "onedarkpro"
+
+[colors]
+# --- Core palette (taken from onedarkpro.nvim) ---
+bg = "#282c34"
+bg2 = "#2c323c"
+fg = "#abb2bf"
+red = "#e06c75"
+orange = "#d19a66"
+yellow = "#e5c07b"
+green = "#98c379"
+cyan = "#56b6c2"
+blue = "#61afef"
+purple = "#c678dd"
+magenta = "#e06c75"
+gray = "#5c6370"
+lightgray = "#abb2bf"
+
+# --- UI mappings ---
+# See https://yazi-rs.github.io/docs/flavors/overview/#color-reference
+[colors.manager]
+tab_active = { fg = "$bg", bg = "$blue" }
+tab_inactive = { fg = "$lightgray", bg = "$bg2" }
+
+[colors.status]
+normal = { fg = "$bg", bg = "$green" }
+select = { fg = "$bg", bg = "$orange" }
+danger = { fg = "$bg", bg = "$red" }
+
+[colors.border]
+top = { fg = "$blue", bg = "$bg" }
+bottom = { fg = "$blue", bg = "$bg" }
+
+[colors.menu]
+bg = "$bg2"
+fg = "$fg"
+title = { fg = "$blue", bold = true }
+
+[colors.input]
+bg = "$bg2"
+fg = "$fg"
+title = { fg = "$blue", bold = true }
+
+[colors.select]
+bg = "$bg2"
+fg = "$fg"
+title = { fg = "$blue", bold = true }
+
+[colors.completion]
+bg = "$bg2"
+fg = "$fg"
+hovered = { bg = "$blue", fg = "$bg" }
+preview_title = { fg = "$blue", bold = true }
+
+[colors.help]
+on = { fg = "$green" }
+run = { fg = "$yellow" }
+hovered = { bg = "$bg2" }
+footer = { fg = "$lightgray", bg = "$bg2" }
+
+[colors.filetype]
+normal = "$fg"
+dir = { fg = "$blue", bold = true }
+exe = { fg = "$green", bold = true }
+link = { fg = "$purple" }
+hidden = { fg = "$gray" }
+
+[colors.git]
+modified = "$yellow"
+new = "$green"
+deleted = "$red"
+renamed = "$blue"
+typechange = "$purple"
+ignored = "$gray"
+conflict = "$red"
+
+[colors.picker]
+bg = "$bg2"
+fg = "$fg"
+preview_bg = "$bg"
+preview_fg = "$fg"
+border = { fg = "$blue" }
+cursor_line = { bg = "$bg2" }

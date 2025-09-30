@@ -1,0 +1,5 @@
+set selection-clipboard clipboard
+set window-title-basename true
+set adjust-open best-fit
+map r reload
+map R rotate

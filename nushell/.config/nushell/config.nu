@@ -762,6 +762,9 @@ $env.config = {
     ]
 }
 
+# Shells aliases
+use std/dirs shells-aliases *
+
 # Carapace config
 source ~/.cache/carapace/init.nu
 
@@ -771,11 +774,110 @@ use ~/.cache/starship/init.nu
 # Atuin
 source ~/.local/share/atuin/init.nu
 
-# fnm config
-$env.config.hooks.env_change.PWD = [...$env.config.hooks.env_change.PWD
-    { |_, after|
-      if (($after | path join .node-version | path exists) or ($after | path join .nvmrc | path exists)) {
-          fnm use --silent-if-unchanged
-      }
-    }]
+# zoxide
+source ~/.zoxide.nu
 
+# mise
+'
+let mise_path = $nu.default-config-dir | path join mise.nu
+^mise activate nu | save $mise_path --force
+' | save $nu.env-path --append
+"\nuse ($nu.default-config-dir | path join mise.nu)" | save $nu.config-path --append
+
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
+use ($nu.default-config-dir | path join mise.nu)
