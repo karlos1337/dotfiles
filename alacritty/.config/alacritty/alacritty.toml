@@ -1,0 +1,21 @@
+[font]
+size = 11.5
+
+[font.bold]
+family = "RecMonoLinear Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "RecMonoLinear Nerd Font Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "RecMonoLinear Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "RecMonoLinear Nerd Font Mono"
+style = "Regular"
+
+[window]
+decorations = "none"

@@ -5,10 +5,11 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
-  { import = "astrocommunity.pack.lua" },
 
   { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
 
+  { import = "astrocommunity.pack.prettier" },
+  { import = "astrocommunity.pack.eslint" },
   { import = "astrocommunity.git.blame-nvim" },
 
   { import = "astrocommunity.docker.lazydocker" },
@@ -19,9 +20,12 @@ return {
   { import = "astrocommunity.motion.marks-nvim" },
   { import = "astrocommunity.motion.mini-surround" },
 
+  { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.angular" },
   { import = "astrocommunity.pack.astro" },
   { import = "astrocommunity.pack.bash" },
+
+  { import = "astrocommunity.pack.biome" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.json" },

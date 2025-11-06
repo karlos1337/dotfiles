@@ -13,5 +13,10 @@ use = "dawsers/fuse-archive"
 rev = "a58327c"
 hash = "6a6d24880ce7666048fb81ad758c48d3"
 
+[[plugin.deps]]
+use = "yazi-rs/plugins:smart-enter"
+rev = "9a52857"
+hash = "56fdabc96fc1f4d53c96eb884b02a5be"
+
 [flavor]
 deps = []

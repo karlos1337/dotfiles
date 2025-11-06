@@ -1,3 +1,4 @@
+if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 local prefix = "<Leader>A"
 
 -- `adapters.<adapter_name>` and `adapters.opts` is deprecated, use `adapters.http.<adapter_name>` and `adapters.http.opts` instead.
@@ -29,11 +30,11 @@ return {
       strategies = {
         chat = {
           adapter = "anthropic",
-          model = "claude-sonnet-4-20250514",
+          model = "claude-sonnet-4-5-20250929",
         },
         inline = {
           adapter = "anthropic",
-          model = "claude-sonnet-4-20250514",
+          model = "claude-sonnet-4-5-20250929",
         },
       },
     }

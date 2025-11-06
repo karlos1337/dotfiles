@@ -122,3 +122,23 @@ zoxide init --cmd cd nushell | save -f ~/.zoxide.nu
 ## mise
 let mise_path = $nu.default-config-dir | path join mise.nu
 ^mise activate nu | save $mise_path --force
+
+## yazi
+def --env y [...args] {
+	let tmp = (mktemp -t "yazi-cwd.XXXXXX")
+	yazi ...$args --cwd-file $tmp
+	let cwd = (open $tmp)
+	if $cwd != "" and $cwd != $env.PWD {
+		cd $cwd
+	}
+	rm -fp $tmp
+}
+
+## Restore last directory
+let last_dir_file = ($env.HOME | path join ".cache" "nushell_last_dir")
+if ($last_dir_file | path exists) {
+    let last_dir = (open $last_dir_file | str trim)
+    if ($last_dir | path exists) and ($last_dir != $env.PWD) {
+        cd $last_dir
+    }
+}
