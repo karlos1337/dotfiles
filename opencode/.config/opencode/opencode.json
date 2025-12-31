@@ -2,5 +2,17 @@
 	"$schema": "https://opencode.ai/config.json",
 	"theme": "one-dark",
 	"model": "anthropic/claude-sonnet-4-5-20250929",
-	"small_model": "anthropic/claude-haiku-4-5-20251001"
+	"small_model": "anthropic/claude-haiku-4-5-20251001",
+	"mcp": {
+		"deepwiki": {
+			"type": "remote",
+			"url": "https://mcp.deepwiki.com/sse",
+			"enabled": true
+		},
+		"linear": {
+			"type": "local",
+			"command": ["bun", "x", "-y", "mcp-remote", "https://mcp.linear.app/mcp"],
+			"enabled": true
+		}
+	}
 }

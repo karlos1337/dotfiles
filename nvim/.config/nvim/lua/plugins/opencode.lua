@@ -1,7 +1,7 @@
 return {
   "NickvanDyke/opencode.nvim",
   dependencies = {
-    { "folke/snacks.nvim", opts = { input = {}, picker = {} } },
+    { "folke/snacks.nvim", opts = { input = {}, picker = {}, terminal = {} } },
   },
   config = function()
     vim.g.opencode_opts = {
@@ -26,16 +26,12 @@ return {
           desc = "Toggle embedded",
         }
         maps.n[prefix .. "a"] = {
-          function() require("opencode").ask("@this: ", { submit = true }) end,
+          function() require("opencode").ask "@cursor: " end,
           desc = "Ask about this",
         }
-        maps.n[prefix .. "b"] = {
+        maps.n[prefix .. "+"] = {
           function() require("opencode").prompt("@buffer", { append = true }) end,
           desc = "Add buffer to prompt",
-        }
-        maps.n[prefix .. "+"] = {
-          function() require("opencode").prompt "@this" end,
-          desc = "Add this to prompt",
         }
         maps.n[prefix .. "e"] = {
           function() require("opencode").prompt "Explain @cursor and its context" end,
@@ -44,10 +40,6 @@ return {
         maps.n[prefix .. "n"] = {
           function() require("opencode").command "session_new" end,
           desc = "New session",
-        }
-        maps.n[prefix .. "i"] = {
-          function() require("opencode").command "session_interrupt" end,
-          desc = "Session interrupt",
         }
         maps.n[prefix .. "s"] = {
           function() require("opencode").select() end,
@@ -68,7 +60,7 @@ return {
           desc = "Ask about selection",
         }
         maps.v[prefix .. "+"] = {
-          function() require("opencode").prompt("@selection", { append = true }) end,
+          function() require("opencode").prompt "@this" end,
           desc = "Add selection to prompt",
         }
         maps.v[prefix .. "s"] = {
