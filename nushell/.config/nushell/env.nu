@@ -108,6 +108,7 @@ $env.PATH = ($env.PATH | split row (char esep) | append [
 
 ## api-keys
 $env.ANTHROPIC_API_KEY = (open ~/.api-keys/anthropic-api | str trim)
+$env.CLAUDE_API_KEY = (open ~/.api-keys/anthropic-api | str trim)
 $env.DEEPSEEK_API_KEY = (open ~/.api-keys/deepseek-api | str trim)
 $env.GROQ_API_KEY = (open ~/.api-keys/groq-api | str trim)
 $env.TAVILY_API_KEY = (open ~/.api-keys/tavily-api | str trim)
