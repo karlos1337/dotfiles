@@ -8,7 +8,7 @@ return {
 
   { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
 
-  { import = "astrocommunity.pack.prettier" },
+  -- { import = "astrocommunity.pack.prettier" },
   { import = "astrocommunity.pack.eslint" },
   { import = "astrocommunity.git.blame-nvim" },
 
@@ -24,7 +24,6 @@ return {
   { import = "astrocommunity.pack.angular" },
   { import = "astrocommunity.pack.astro" },
   { import = "astrocommunity.pack.bash" },
-
   { import = "astrocommunity.pack.biome" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.html-css" },
@@ -37,6 +36,7 @@ return {
   -- { import = "astrocommunity.pack.ruby" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.sql" },
+  { import = "astrocommunity.pack.vue" },
   { import = "astrocommunity.pack.svelte" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.toml" },

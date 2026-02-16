@@ -1,7 +1,8 @@
-[includeIf "gitdir:~/Workspace/mb/"]
-path = ~/Workspace/mb/.gitconfig.work
 [user]
 	email = karlos1337@gmail.com
 	name = Carlos López
 [init]
 	defaultBranch = main
+
+[includeIf "gitdir:/home/carlos/Workspace/mb/**"]
+	path = /home/carlos/Workspace/mb/.gitconfig-mb

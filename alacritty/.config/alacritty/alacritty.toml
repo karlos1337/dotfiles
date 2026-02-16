@@ -19,3 +19,8 @@ style = "Regular"
 
 [window]
 decorations = "none"
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Shift"
+chars = "\u001b\r"

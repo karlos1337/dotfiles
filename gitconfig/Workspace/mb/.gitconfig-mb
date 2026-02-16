@@ -1,0 +1,5 @@
+[user]
+	email = carlos.lopez@marsbased.com
+	name = Carlos López
+[init]
+	defaultBranch = main
