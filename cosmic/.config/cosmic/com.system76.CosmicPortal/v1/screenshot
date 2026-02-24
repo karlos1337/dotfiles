@@ -1,0 +1,10 @@
+(
+    save_location: Documents,
+    choice: Rectangle,
+    last_rectangle: Some((
+        left: 2678,
+        top: 330,
+        right: 3265,
+        bottom: 726,
+    )),
+)

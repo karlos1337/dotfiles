@@ -1,5 +1,7 @@
-# see https://github.com/sigoden/aichat/blob/main/config.example.yaml
-
-model: claude:claude-sonnet-4-20250514:thinking
 clients:
-  - type: claude
+  - type: openai-compatible
+    name: groq
+    api_base: https://api.groq.com/openai/v1
+    models:
+      - name: qwen/qwen3-32b
+        max_input_tokens: 131072

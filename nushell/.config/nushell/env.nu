@@ -110,6 +110,7 @@ $env.PATH = ($env.PATH | split row (char esep) | append [
 $env.DEEPSEEK_API_KEY = (open ~/.api-keys/deepseek-api | str trim)
 $env.GROQ_API_KEY = (open ~/.api-keys/groq-api | str trim)
 $env.TAVILY_API_KEY = (open ~/.api-keys/tavily-api | str trim)
+$env.CONTEXT7_API_KEY = (open ~/.api-keys/context7-api | str trim)
 
 ## bun
 $env.BUN_DIR = ($env.HOME + "/.bun")

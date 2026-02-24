@@ -8,7 +8,7 @@
   "mcp": {
     "deepwiki": {
       "type": "remote",
-      "url": "https://mcp.deepwiki.com/sse"
+      "url": "https://mcp.deepwiki.com/mcp"
     },
     "linear": {
       "type": "local",
@@ -30,13 +30,19 @@
       ]
     },
     "svelte": {
-      "type": "local",
-      "command": [
-        "bun",
-        "x",
-        "-y",
-        "@svelte/mcp"
-      ]
+      "type": "remote",
+      "url": "https://mcp.svelte.dev/mcp"
+    },
+    "nuxt": {
+      "type": "remote",
+      "url": "https://nuxt.com/mcp"
+    },
+    "context7": {
+      "type": "remote",
+      "url": "https://mcp.context7.com/mcp",
+      "headers": {
+        "CONTEXT7_API_KEY": "{env:CONTEXT7_API_KEY}"
+      }
     }
   },
   "provider": {

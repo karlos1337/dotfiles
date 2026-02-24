@@ -1,0 +1,12 @@
+{
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "f",
+    ): Fullscreen,
+    (
+        modifiers: [],
+        key: "Print",
+    ): Spawn("flameshot gui"),
+}
