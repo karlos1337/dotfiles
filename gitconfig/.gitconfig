@@ -3,6 +3,8 @@
 	name = Carlos López
 [init]
 	defaultBranch = main
+[core]
+	sshCommand = ssh -i ~/.ssh/id_ed25519 -o IdentitiesOnly=yes
 
 [includeIf "gitdir:/home/carlos/Workspace/mb/**"]
 	path = /home/carlos/Workspace/mb/.gitconfig-mb

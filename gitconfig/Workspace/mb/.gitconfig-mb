@@ -3,3 +3,5 @@
 	name = Carlos López
 [init]
 	defaultBranch = main
+[url "git@github.com-marsbased:"]
+	insteadOf = git@github.com:

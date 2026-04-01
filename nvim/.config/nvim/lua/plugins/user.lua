@@ -21,6 +21,16 @@ return {
   {
     "folke/snacks.nvim",
     opts = {
+      picker = {
+        sources = {
+          files = {
+            args = { "--no-ignore-parent" },
+          },
+          grep = {
+            args = { "--no-ignore-parent" },
+          },
+        },
+      },
       dashboard = {
         preset = {
           header = table.concat({
@@ -34,6 +44,46 @@ return {
             "                                                     ",
           }, "\n"),
         },
+      },
+    },
+  },
+
+  {
+    "jay-babu/mason-null-ls.nvim",
+    opts = {
+      handlers = {
+        prettierd = function()
+          local null_ls = require "null-ls"
+          null_ls.register(null_ls.builtins.formatting.prettierd.with {
+            condition = function(utils)
+              return utils.root_has_file {
+                ".prettierrc",
+                ".prettierrc.json",
+                ".prettierrc.json5",
+                ".prettierrc.yml",
+                ".prettierrc.yaml",
+                ".prettierrc.js",
+                ".prettierrc.cjs",
+                ".prettierrc.mjs",
+                ".prettierrc.ts",
+                ".prettierrc.cts",
+                ".prettierrc.mts",
+                ".prettierrc.toml",
+                "prettier.config.js",
+                "prettier.config.cjs",
+                "prettier.config.mjs",
+                "prettier.config.ts",
+                "prettier.config.mts",
+              }
+            end,
+          })
+        end,
+        biome = function()
+          local null_ls = require "null-ls"
+          null_ls.register(null_ls.builtins.formatting.biome.with {
+            condition = function(utils) return utils.root_has_file { "biome.json", "biome.jsonc" } end,
+          })
+        end,
       },
     },
   },

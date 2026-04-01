@@ -27,6 +27,7 @@ return {
     open_for_directories = true,
     keymaps = {
       show_help = "<f1>",
+      grep_in_directory = false,
       open_file_in_tab = false,
     },
   },
