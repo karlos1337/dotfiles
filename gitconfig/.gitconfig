@@ -1,10 +1,12 @@
 [user]
 	email = karlos1337@gmail.com
 	name = Carlos López
+
 [init]
 	defaultBranch = main
+
 [core]
-	sshCommand = ssh -i ~/.ssh/id_ed25519 -o IdentitiesOnly=yes
+	sshCommand = ssh -i ~/.ssh/id_ed25519 -o IdentitiesOnly=yes -o AddKeysToAgent=yes
 
 [includeIf "gitdir:/home/carlos/Workspace/mb/**"]
 	path = /home/carlos/Workspace/mb/.gitconfig-mb

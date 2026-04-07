@@ -79,7 +79,7 @@ $env.VISUAL = "nvim"
 $env.DOCKER_HOST = $"unix://($env.XDG_RUNTIME_DIR)/docker.sock"
 
 # Local
-$env.PATH = ($env.PATH | split row (char esep) | append "/usr/local/bin")
+$env.PATH = ($env.PATH | split row (char esep) | append "/usr/local/bin" | append "~/.local/bin")
 
 # Carapace config
 $env.CARAPACE_BRIDGES = 'zsh,fish,bash,intellisense'
@@ -111,6 +111,8 @@ $env.DEEPSEEK_API_KEY = (open ~/.api-keys/deepseek-api | str trim)
 $env.GROQ_API_KEY = (open ~/.api-keys/groq-api | str trim)
 $env.TAVILY_API_KEY = (open ~/.api-keys/tavily-api | str trim)
 $env.CONTEXT7_API_KEY = (open ~/.api-keys/context7-api | str trim)
+$env.Z_AI_API_KEY = (open ~/.api-keys/zai-api | str trim)
+$env.STITCH_API_KEY = (open ~/.api-keys/stitch-api | str trim)
 
 ## bun
 $env.BUN_DIR = ($env.HOME + "/.bun")

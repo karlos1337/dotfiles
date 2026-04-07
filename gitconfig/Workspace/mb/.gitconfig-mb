@@ -1,7 +1,12 @@
 [user]
 	email = carlos.lopez@marsbased.com
 	name = Carlos López
+
 [init]
 	defaultBranch = main
+
+[core]
+	sshCommand = ssh -i ~/.ssh/carlos.lopez@marsbased.com -o IdentitiesOnly=yes -o AddKeysToAgent=yes
+
 [url "git@github.com-marsbased:"]
 	insteadOf = git@github.com:
