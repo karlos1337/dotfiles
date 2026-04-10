@@ -72,8 +72,8 @@ $env.NU_PLUGIN_DIRS = [
 # source ($nu.default-config-dir | path join 'custom.nu')
 
 # System
-$env.EDITOR = "nvim"
-$env.VISUAL = "nvim"
+$env.EDITOR = "helix"
+$env.VISUAL = "helix"
 
 # Docker rootless
 $env.DOCKER_HOST = $"unix://($env.XDG_RUNTIME_DIR)/docker.sock"
