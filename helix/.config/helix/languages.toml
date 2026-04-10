@@ -1,0 +1,43 @@
+[language-server.tailwindcss-ls]
+command = "tailwindcss-language-server"
+args = ["-vvv", "--stdio"]
+
+[[language]]
+name = "svelte"
+language-servers = ["svelteserver", "tailwindcss-ls"]
+formatter = { command = "~/.config/helix/format.sh", args = ["file.svelte"] }
+
+[[language]]
+name = "vue"
+language-servers = ["vue-language-server", "tailwindcss-ls"]
+formatter = { command = "~/.config/helix/format.sh", args = ["file.vue"] }
+
+[[language]]
+name = "javascript"
+language-servers = ["typescript-language-server", "tailwindcss-ls"]
+formatter = { command = "~/.config/helix/format.sh", args = ["file.js"] }
+
+[[language]]
+name = "typescript"
+language-servers = ["typescript-language-server", "tailwindcss-ls"]
+formatter = { command = "~/.config/helix/format.sh", args = ["file.ts"] }
+
+[[language]]
+name = "jsx"
+language-servers = ["typescript-language-server", "tailwindcss-ls"]
+formatter = { command = "~/.config/helix/format.sh", args = ["file.jsx"] }
+
+[[language]]
+name = "tsx"
+language-servers = ["typescript-language-server", "tailwindcss-ls"]
+formatter = { command = "~/.config/helix/format.sh", args = ["file.tsx"] }
+
+[[language]]
+name = "html"
+language-servers = ["vscode-html-language-server", "tailwindcss-ls"]
+formatter = { command = "~/.config/helix/format.sh", args = ["file.html"] }
+
+[[language]]
+name = "css"
+language-servers = ["vscode-css-language-server", "tailwindcss-ls"]
+formatter = { command = "~/.config/helix/format.sh", args = ["file.css"] }
