@@ -1,0 +1,9 @@
+[user]
+	email = krls1337@proton.me
+	name = Carlos López
+
+[init]
+	defaultBranch = main
+
+[url "git@github.com-personal:"]
+	insteadOf = git@github.com:

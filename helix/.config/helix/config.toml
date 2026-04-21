@@ -4,6 +4,10 @@ theme = "onedarkpro"
 line-number = "absolute"
 mouse = false
 shell = ["bash", "-c"]
+auto-format = true
+
+[editor.auto-save]
+after-delay = { enable = true }
 
 [keys.normal]
 C-g = [
@@ -12,6 +16,9 @@ C-g = [
   ":redraw",
   ":reload-all"
 ]
+
+[keys.insert]
+j = { k = "normal_mode" }
 
 [keys.normal.space]
 e = [

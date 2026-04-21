@@ -1,9 +1,28 @@
 [tools]
-bun = "latest"
-node = "24.9.0"
+aichat = "latest"
+atuin = "latest"
+bat = "latest"
+bun = "1.3.12"
+carapace = "latest"
+claude-code = "latest"
+helix = "latest"
+lazydocker = "latest"
+lazygit = "latest"
+marksman = "latest"
+node = "25.9.0"
+opencode = "latest"
+oxker = "latest"
 python = "latest"
 ruby = "latest"
 rust = "latest"
+starship = "latest"
+usage = "latest"
+yamlfmt = "latest"
+yazi = "latest"
+zoxide = "latest"
 
 [settings]
 idiomatic_version_file_enable_tools = ["node", "ruby"]
+
+[settings.ruby]
+compile = false

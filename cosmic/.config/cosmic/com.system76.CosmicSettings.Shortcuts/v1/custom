@@ -6,6 +6,12 @@
         key: "f",
     ): Fullscreen,
     (
+        modifiers: [
+            Super,
+        ],
+        key: "F11",
+    ): Disable,
+    (
         modifiers: [],
         key: "Print",
     ): Spawn("flameshot gui"),

@@ -72,14 +72,52 @@ $env.NU_PLUGIN_DIRS = [
 # source ($nu.default-config-dir | path join 'custom.nu')
 
 # System
-$env.EDITOR = "helix"
-$env.VISUAL = "helix"
+$env.EDITOR = "hx"
+$env.VISUAL = "hx"
 
-# Docker rootless
-$env.DOCKER_HOST = $"unix://($env.XDG_RUNTIME_DIR)/docker.sock"
+# OS detection (cached once per session)
+let is_linux = (sys host | get name) == "Linux"
 
-# Local
-$env.PATH = ($env.PATH | split row (char esep) | append "/usr/local/bin" | append "~/.local/bin")
+# Docker
+if $is_linux {
+    # Docker rootless (Linux)
+    if ($env | get -o XDG_RUNTIME_DIR) != null {
+        $env.DOCKER_HOST = $"unix://($env.XDG_RUNTIME_DIR)/docker.sock"
+    }
+} else {
+    # Docker Desktop (macOS) — socket at ~/.docker/run/docker.sock
+    let docker_sock = ($env.HOME | path join ".docker/run/docker.sock")
+    if ($docker_sock | path exists) {
+        $env.DOCKER_HOST = $"unix://($docker_sock)"
+    }
+}
+
+# JAVA
+if $is_linux {
+    $env.JAVA_HOME = "/usr/lib/jvm/java-1.17.0-openjdk-amd64"
+} else {
+    # macOS: try Homebrew JDK, fall back to /usr/libexec/java_home
+    let brew_java = "/opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home"
+    if ($brew_java | path exists) {
+        $env.JAVA_HOME = $brew_java
+    } else {
+        # Use java_home tool if available
+        let java_home = (which java_home | get -o path | first)
+        if $java_home != null {
+            $env.JAVA_HOME = (^java_home 2>/dev/null | str trim)
+        }
+    }
+}
+
+# PATH
+$env.PATH = ($env.PATH | split row (char esep) | append "/usr/local/bin" | append "~/.local/bin" | prepend ($env.HOME | path join ".local/share/mise/shims"))
+if ($env | get -o JAVA_HOME) != null and ($env.JAVA_HOME | str length) > 0 {
+    $env.PATH = ($env.PATH | append $env.JAVA_HOME)
+}
+
+## mise
+let mise_path = $nu.default-config-dir | path join mise.nu
+^mise activate nu | save $mise_path --force
 
 # Carapace config
 $env.CARAPACE_BRIDGES = 'zsh,fish,bash,intellisense'
@@ -90,14 +128,20 @@ carapace _carapace nushell | save --force ~/.cache/carapace/init.nu
 mkdir ~/.cache/starship
 starship init nu | save -f ~/.cache/starship/init.nu
 
-# SSH config
-if ($env | get -o XDG_RUNTIME_DIR) != null {
-    $env.SSH_AUTH_SOCK = $"($env.XDG_RUNTIME_DIR)/ssh-agent.socket"
-}
+# # SSH config
+# if ($env | get -o XDG_RUNTIME_DIR) != null {
+#     $env.SSH_AUTH_SOCK = $"($env.XDG_RUNTIME_DIR)/ssh-agent.socket"
+# }
 
 # Android config
-$env.ANDROID_HOME = ($env.HOME + "/Android/Sdk")
-$env.ANDROID_SDK_ROOT = ($env.HOME + "/Android/Sdk")
+if $is_linux {
+    $env.ANDROID_HOME = ($env.HOME + "/Android/Sdk")
+    $env.ANDROID_SDK_ROOT = ($env.HOME + "/Android/Sdk")
+} else {
+    # macOS default SDK location
+    $env.ANDROID_HOME = ($env.HOME + "/Library/Android/sdk")
+    $env.ANDROID_SDK_ROOT = ($env.HOME + "/Library/Android/sdk")
+}
 $env.ANDROID_AVD_HOME = ($env.HOME + "/.android/avd")
 $env.PATH = ($env.PATH | split row (char esep) | append [
     ($env.ANDROID_HOME | path join "platform-tools")
@@ -121,9 +165,6 @@ $env.PATH = ($env.PATH | split row (char esep) | append ($env.BUN_DIR | path joi
 ## zoxide
 zoxide init --cmd cd nushell | save -f ~/.zoxide.nu
 
-## mise
-let mise_path = $nu.default-config-dir | path join mise.nu
-^mise activate nu | save $mise_path --force
 
 ## yazi
 def --env y [...args] {

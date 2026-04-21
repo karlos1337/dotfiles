@@ -2,42 +2,65 @@
 command = "tailwindcss-language-server"
 args = ["-vvv", "--stdio"]
 
+[language-server.vue-language-server]
+command = "vue-language-server"
+args = ["--stdio"]
+config = { typescript = { tsdk = "/home/carlos/.bun/install/global/node_modules/typescript/lib" } }
+
+[[language]]
+name = "markdown"
+auto-format = true
+formatter = { command = "mdformat", args = ["-"] }
+
 [[language]]
 name = "svelte"
+auto-format = true
 language-servers = ["svelteserver", "tailwindcss-ls"]
-formatter = { command = "~/.config/helix/format.sh", args = ["file.svelte"] }
+formatter = { command = "/home/carlos/.config/helix/format.sh", args = ["svelte"] }
 
 [[language]]
 name = "vue"
+auto-format = true
 language-servers = ["vue-language-server", "tailwindcss-ls"]
-formatter = { command = "~/.config/helix/format.sh", args = ["file.vue"] }
+formatter = { command = "/home/carlos/.config/helix/format.sh", args = ["vue"] }
 
 [[language]]
 name = "javascript"
+auto-format = true
 language-servers = ["typescript-language-server", "tailwindcss-ls"]
-formatter = { command = "~/.config/helix/format.sh", args = ["file.js"] }
+formatter = { command = "/home/carlos/.config/helix/format.sh", args = ["js"] }
 
 [[language]]
 name = "typescript"
+auto-format = true
 language-servers = ["typescript-language-server", "tailwindcss-ls"]
-formatter = { command = "~/.config/helix/format.sh", args = ["file.ts"] }
+formatter = { command = "/home/carlos/.config/helix/format.sh", args = ["ts"] }
 
 [[language]]
 name = "jsx"
+auto-format = true
 language-servers = ["typescript-language-server", "tailwindcss-ls"]
-formatter = { command = "~/.config/helix/format.sh", args = ["file.jsx"] }
+formatter = { command = "/home/carlos/.config/helix/format.sh", args = ["jsx"] }
 
 [[language]]
 name = "tsx"
+auto-format = true
 language-servers = ["typescript-language-server", "tailwindcss-ls"]
-formatter = { command = "~/.config/helix/format.sh", args = ["file.tsx"] }
+formatter = { command = "/home/carlos/.config/helix/format.sh", args = ["tsx"] }
 
 [[language]]
 name = "html"
+auto-format = true
 language-servers = ["vscode-html-language-server", "tailwindcss-ls"]
-formatter = { command = "~/.config/helix/format.sh", args = ["file.html"] }
+formatter = { command = "/home/carlos/.config/helix/format.sh", args = ["html"] }
 
 [[language]]
 name = "css"
+auto-format = true
 language-servers = ["vscode-css-language-server", "tailwindcss-ls"]
-formatter = { command = "~/.config/helix/format.sh", args = ["file.css"] }
+formatter = { command = "/home/carlos/.config/helix/format.sh", args = ["css"] }
+
+[[language]]
+name = "yaml"
+auto-format = true
+formatter = { command = "yamlfmt", args = ["-"] }

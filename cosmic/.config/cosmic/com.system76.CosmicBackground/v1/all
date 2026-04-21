@@ -1,6 +1,6 @@
 (
     output: "all",
-    source: Path("/home/carlos/Imágenes/woods.jpeg"),
+    source: Path("/home/carlos/Imágenes/wallpaper.jpeg"),
     filter_by_theme: true,
     rotation_frequency: 300,
     filter_method: Lanczos,

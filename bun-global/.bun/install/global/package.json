@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@fsouza/prettierd": "^0.27.0",
+    "@vue/language-server": "^3.2.6",
+    "@z_ai/mcp-server": "^0.1.3",
+    "eas-cli": "^18.7.0",
+    "eslint_d": "^15.0.2",
+    "marksman": "^0.1.0",
+    "svelte-language-server": "^0.17.30",
+    "tailwindcss-language-server": "^0.0.1",
+    "typescript": "^6.0.2",
+    "typescript-language-server": "^5.1.3"
+  }
+}
