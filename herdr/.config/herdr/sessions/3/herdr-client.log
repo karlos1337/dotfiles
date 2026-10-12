@@ -1,0 +1,8 @@
+2026-09-24T08:40:53.063971Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=3249550
+2026-09-24T08:40:53.064018Z  INFO herdr::client: connecting to server path=/home/carlos/.config/herdr/sessions/3/herdr-client.sock
+2026-09-24T08:40:53.274823Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.1
+2026-09-25T16:22:09.742552Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=3249550
+2026-10-06T10:21:40.347385Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=2319845
+2026-10-06T10:21:40.347573Z  INFO herdr::client: connecting to server path=/home/carlos/.config/herdr/sessions/3/herdr-client.sock
+2026-10-06T10:21:40.349842Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.3
+2026-10-07T14:35:23.440616Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=2319845

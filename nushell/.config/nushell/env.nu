@@ -76,7 +76,7 @@ $env.EDITOR = "hx"
 $env.VISUAL = "hx"
 
 # OS detection (cached once per session)
-let is_linux = (sys host | get name) == "Linux"
+let is_linux = (sys host | get name) == "Pop!_OS"
 
 # Docker
 if $is_linux {
@@ -110,14 +110,10 @@ if $is_linux {
 }
 
 # PATH
-$env.PATH = ($env.PATH | split row (char esep) | append "/usr/local/bin" | append "~/.local/bin" | prepend ($env.HOME | path join ".local/share/mise/shims"))
+$env.PATH = ($env.PATH | split row (char esep) | append "/usr/local/bin" | append "~/.local/bin" | append "~/.maestro/bin" | prepend ($env.HOME | path join ".local/share/mise/shims"))
 if ($env | get -o JAVA_HOME) != null and ($env.JAVA_HOME | str length) > 0 {
     $env.PATH = ($env.PATH | append $env.JAVA_HOME)
 }
-
-## mise
-let mise_path = $nu.default-config-dir | path join mise.nu
-^mise activate nu | save $mise_path --force
 
 # Carapace config
 $env.CARAPACE_BRIDGES = 'zsh,fish,bash,intellisense'
@@ -128,10 +124,10 @@ carapace _carapace nushell | save --force ~/.cache/carapace/init.nu
 mkdir ~/.cache/starship
 starship init nu | save -f ~/.cache/starship/init.nu
 
-# # SSH config
-# if ($env | get -o XDG_RUNTIME_DIR) != null {
-#     $env.SSH_AUTH_SOCK = $"($env.XDG_RUNTIME_DIR)/ssh-agent.socket"
-# }
+# SSH config — use gnome-keyring ssh agent (persists keys across reboots)
+if ($env | get -o XDG_RUNTIME_DIR) != null {
+    $env.SSH_AUTH_SOCK = $"($env.XDG_RUNTIME_DIR)/keyring/ssh"
+}
 
 # Android config
 if $is_linux {
@@ -157,10 +153,18 @@ $env.TAVILY_API_KEY = (open ~/.api-keys/tavily-api | str trim)
 $env.CONTEXT7_API_KEY = (open ~/.api-keys/context7-api | str trim)
 $env.Z_AI_API_KEY = (open ~/.api-keys/zai-api | str trim)
 $env.STITCH_API_KEY = (open ~/.api-keys/stitch-api | str trim)
+$env.OPENCODE_API_KEY = (open ~/.api-keys/opencode-api | str trim)
 
 ## bun
 $env.BUN_DIR = ($env.HOME + "/.bun")
-$env.PATH = ($env.PATH | split row (char esep) | append ($env.BUN_DIR | path join "bin") )
+$env.PATH = ($env.PATH | split row (char esep) | append ($env.BUN_DIR | path join "bin") | uniq)
+
+# NOTE: mise activate must run LAST — it bakes a PATH snapshot into mise.nu,
+# and `use mise.nu` in config.nu resets $env.PATH to that snapshot.
+# Anything appended to PATH after this point gets wiped.
+## mise
+let mise_path = $nu.default-config-dir | path join mise.nu
+^mise activate nu | save $mise_path --force
 
 ## zoxide
 zoxide init --cmd cd nushell | save -f ~/.zoxide.nu

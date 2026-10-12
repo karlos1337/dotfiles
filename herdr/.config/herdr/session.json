@@ -1,0 +1,72 @@
+{
+  "version": 3,
+  "workspaces": [
+    {
+      "id": "w5",
+      "custom_name": null,
+      "identity_cwd": "/home/carlos/Workspace/mb/mars-beacon",
+      "public_pane_numbers": {
+        "3": 10,
+        "4": 11,
+        "2": 7
+      },
+      "next_public_pane_number": 12,
+      "public_tab_numbers": [
+        7,
+        10,
+        11
+      ],
+      "next_public_tab_number": 12,
+      "tabs": [
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 2
+          },
+          "panes": {
+            "2": {
+              "cwd": "/home/carlos/Workspace/mb/mars-beacon"
+            }
+          },
+          "zoomed": false,
+          "focused": 2,
+          "root_pane": 2
+        },
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 3
+          },
+          "panes": {
+            "3": {
+              "cwd": "/home/carlos/Workspace/mb/mars-beacon"
+            }
+          },
+          "zoomed": false,
+          "focused": 3,
+          "root_pane": 3
+        },
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 4
+          },
+          "panes": {
+            "4": {
+              "cwd": "/home/carlos/Workspace/mb/mars-beacon"
+            }
+          },
+          "zoomed": false,
+          "focused": 4,
+          "root_pane": 4
+        }
+      ],
+      "active_tab": 1
+    }
+  ],
+  "active": 0,
+  "selected": 0,
+  "sidebar_width": null,
+  "sidebar_section_split": null,
+  "collapsed_space_keys": []
+}

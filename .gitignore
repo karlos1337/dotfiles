@@ -1,3 +1,8 @@
 nushell/.config/nushell/history.txt
 nvim/.config/nvim/lazy-lock.json
 helix/.config/helix/runtime
+
+# cargo global-install manifest. GNU Stow (see .stowrc) keeps Cargo.toml /
+# Cargo.lock / src/ out of $HOME, but git still needs to ignore build output.
+# NOTE: Cargo.lock is intentionally NOT ignored — it pins installed versions.
+cargo/target/

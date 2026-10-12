@@ -3,16 +3,23 @@
         modifiers: [
             Super,
         ],
-        key: "f",
-    ): Fullscreen,
-    (
-        modifiers: [
-            Super,
-        ],
         key: "F11",
     ): Disable,
     (
         modifiers: [],
         key: "Print",
     ): Spawn("flameshot gui"),
+    (
+        modifiers: [
+            Ctrl,
+        ],
+        key: "space",
+        description: Some("handy"),
+    ): Spawn("handy --toggle-transcription"),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "f",
+    ): Fullscreen,
 }

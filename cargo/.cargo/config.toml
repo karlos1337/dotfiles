@@ -1,0 +1,11 @@
+# Use mold as the linker (via clang) instead of GNU ld. mold is far faster and
+# uses much less memory on the link step — the GNU `ld` link was hitting ~4.6GB
+# and helping OOM-kill the Cosmic desktop during Leptos builds.
+[target.x86_64-unknown-linux-gnu]
+linker = "clang"
+rustflags = ["-C", "link-arg=-fuse-ld=mold"]
+
+[build]
+# 16 cores default to 16 parallel rustc -> RAM spike past 30GB. Cap peak
+# concurrency. Tune 6-10 by feel.
+jobs = 6

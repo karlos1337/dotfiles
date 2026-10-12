@@ -1,0 +1,23 @@
+{
+  "lastChangelogVersion": "0.80.3",
+  "theme": "dark",
+  "defaultThinkingLevel": "high",
+  "defaultProvider": "zai",
+  "defaultModel": "glm-5.2",
+  "packages": [
+    "npm:pi-zai-mcp",
+    "npm:pi-zai-agents",
+    "npm:@alexanderfortin/pi-zai-usage",
+    "npm:glm-vision",
+    "npm:pi-native-search",
+    "npm:@estebanforge/pi-glm-tweaks",
+    "npm:@ghoulm370/pi-zai-vision",
+    "npm:pi-rtk-optimizer",
+    "npm:pi-hermes-memory",
+    "npm:pi-mcp-adapter",
+    "npm:@juicesharp/rpiv-ask-user-question",
+    "npm:@ayulab/pi-rewind",
+    "npm:@juicesharp/rpiv-todo",
+    "npm:@plannotator/pi-extension"
+  ]
+}

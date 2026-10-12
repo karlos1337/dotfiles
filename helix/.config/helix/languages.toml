@@ -1,16 +1,30 @@
+[language-server.ansible-language-server]
+command = "ansible-language-server"
+args = ["--stdio"]
+
+[language-server.markdown-oxide]
+command = "markdown-oxide"
+
 [language-server.tailwindcss-ls]
 command = "tailwindcss-language-server"
-args = ["-vvv", "--stdio"]
+args = ["--stdio"]
 
 [language-server.vue-language-server]
 command = "vue-language-server"
 args = ["--stdio"]
 config = { typescript = { tsdk = "/home/carlos/.bun/install/global/node_modules/typescript/lib" } }
 
+[language-server.astro-language-server]
+command = "astro-ls"
+args = ["--stdio"]
+config = { typescript = { tsdk = "/home/carlos/.bun/install/global/node_modules/typescript/lib" } }
+
 [[language]]
 name = "markdown"
 auto-format = true
+language-servers = ["markdown-oxide"]
 formatter = { command = "mdformat", args = ["-"] }
+soft-wrap = { enable = true, max-wrap = 25, max-indent-retain = 0, wrap-indicator = "↪ " }
 
 [[language]]
 name = "svelte"
@@ -23,6 +37,12 @@ name = "vue"
 auto-format = true
 language-servers = ["vue-language-server", "tailwindcss-ls"]
 formatter = { command = "/home/carlos/.config/helix/format.sh", args = ["vue"] }
+
+[[language]]
+name = "astro"
+auto-format = true
+language-servers = ["astro-language-server", "tailwindcss-ls"]
+formatter = { command = "/home/carlos/.config/helix/format.sh", args = ["astro"] }
 
 [[language]]
 name = "javascript"
@@ -61,6 +81,17 @@ language-servers = ["vscode-css-language-server", "tailwindcss-ls"]
 formatter = { command = "/home/carlos/.config/helix/format.sh", args = ["css"] }
 
 [[language]]
+name = "rust"
+auto-format = true
+language-servers = ["rust-analyzer"]
+
+[language-server.rust-analyzer.config]
+check.command = "clippy"
+cargo.features = "all"
+cargo.allFeatures = true
+
+[[language]]
 name = "yaml"
 auto-format = true
+language-servers = ["yaml-language-server", "ansible-language-server"]
 formatter = { command = "yamlfmt", args = ["-"] }

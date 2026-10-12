@@ -1,0 +1,24 @@
+# GNU Stow defaults, read on every `stow` invocation run from ~/.dotfiles.
+# IMPORTANT: stow 2.3.1 does NOT skip "#" comment lines — it tokenizes the
+# whole file and treats every non-option-looking word as an error. So this
+# file contains ONLY valid stow options. Keep prose out of here.
+#
+# Why these ignores exist:
+# The `cargo` package holds an install manifest (Cargo.toml, Cargo.lock, src/)
+# next to the real config. Only .cargo/config.toml should be stowed into $HOME.
+# Stow 2.4+ would honor a per-package .stowignore; on 2.3.1 we use --ignore
+# regexes here. They are anchored at end-of-path and harmless to other packages
+# since none of them contain files named Cargo.toml / Cargo.lock / src / target.
+--ignore=Cargo\.toml
+--ignore=Cargo\.lock
+--ignore=src
+--ignore=target
+
+# pi package: settings.json and extension config.json files are rewritten at
+# runtime by pi (atomic rename) and its extensions (e.g. pi-rtk-optimizer's
+# config-store.ts). Symlinking them would break after the first in-app save.
+# They are synced via pi/sync.nu instead. sync.nu itself is a script, not config.
+# Anchored under .pi/ so other packages' settings.json / config.json are safe.
+--ignore=^\.pi/.*settings\.json
+--ignore=^\.pi/.*config\.json
+--ignore=^sync\.nu

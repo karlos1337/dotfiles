@@ -3,5 +3,5 @@ clients:
     name: groq
     api_base: https://api.groq.com/openai/v1
     models:
-      - name: qwen/qwen3-32b
+      - name: openai/gpt-oss-120b
         max_input_tokens: 131072

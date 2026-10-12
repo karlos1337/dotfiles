@@ -1,0 +1,1244 @@
+2026-08-31T10:06:35.229658Z  INFO herdr::api::server: api server listening path=/home/carlos/.config/herdr/sessions/2/herdr.sock
+2026-08-31T10:06:35.230388Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-08-31T10:06:35.300420Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-31T10:06:35.302958Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=40 cols=120 scrollback_limit_bytes=10000000
+2026-08-31T10:06:35.304541Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=130222
+2026-08-31T10:06:35.304778Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w1" pane_id=1
+2026-08-31T10:06:35.304786Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-08-31T10:06:35.304792Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-31T10:06:35.304795Z  INFO herdr::server::headless: created startup workspace cwd=/home/carlos/Workspace/personal/certifica
+2026-08-31T10:06:35.304856Z  INFO herdr::server::headless: client protocol socket listening path=/home/carlos/.config/herdr/sessions/2/herdr-client.sock
+2026-08-31T10:06:35.304871Z  INFO herdr::server::headless: herdr server started api_socket=/home/carlos/.config/herdr/sessions/2/herdr.sock client_socket=/home/carlos/.config/herdr/sessions/2/herdr-client.sock
+2026-08-31T10:06:35.305065Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=130198
+2026-08-31T10:06:35.390648Z  INFO herdr::server::headless: client connected client_id=2 cols=159 rows=45 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-08-31T10:06:40.306878Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-08-31T10:06:40.376925Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Pi) process=pi pgid=Some(130477)
+2026-08-31T10:07:34.477252Z  INFO herdr::server::headless: client resize client_id=2 cols=79 rows=45 cell_width_px=0 cell_height_px=0
+2026-08-31T10:07:35.478202Z  INFO herdr::server::headless: client resize client_id=2 cols=159 rows=45 cell_width_px=0 cell_height_px=0
+2026-08-31T10:24:47.859074Z  INFO herdr::server::headless: client resize client_id=2 cols=79 rows=45 cell_width_px=0 cell_height_px=0
+2026-08-31T10:24:54.065116Z  INFO herdr::server::headless: client resize client_id=2 cols=159 rows=45 cell_width_px=0 cell_height_px=0
+2026-08-31T10:25:11.496484Z  INFO herdr::server::headless: client resize client_id=2 cols=79 rows=45 cell_width_px=0 cell_height_px=0
+2026-08-31T10:25:15.701708Z  INFO herdr::server::headless: client resize client_id=2 cols=159 rows=45 cell_width_px=0 cell_height_px=0
+2026-08-31T10:26:46.588186Z  INFO herdr::app::actions: copied selection to clipboard
+2026-08-31T10:26:49.541602Z  INFO herdr::app::actions: copied selection to clipboard
+2026-08-31T10:27:08.727006Z  INFO herdr::app::actions: copied selection to clipboard
+2026-08-31T10:29:52.181203Z  INFO herdr::server::headless: client resize client_id=2 cols=79 rows=45 cell_width_px=0 cell_height_px=0
+2026-08-31T10:29:55.586790Z  INFO herdr::server::headless: client resize client_id=2 cols=159 rows=45 cell_width_px=0 cell_height_px=0
+2026-08-31T10:30:12.212778Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=44 cols=155 scrollback_limit_bytes=10000000
+2026-08-31T10:30:12.214007Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=156989
+2026-08-31T10:30:12.214164Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-31T10:30:17.215720Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-08-31T10:30:33.945657Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-31T10:30:38.946760Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-08-31T10:35:31.454127Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-31T10:35:36.455678Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-08-31T10:36:16.326933Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-31T10:36:21.329865Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-08-31T10:36:35.301757Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-31T11:06:35.302716Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-31T11:36:35.303207Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-31T11:56:14.709082Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-31T11:56:19.712617Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-08-31T11:56:40.272921Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-31T11:56:45.274886Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-08-31T11:56:52.623329Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-31T11:56:55.465730Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-31T11:57:00.468041Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-08-31T11:57:13.226607Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-31T11:57:18.227605Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-08-31T11:57:48.847666Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-31T11:57:53.849857Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-08-31T12:02:49.462924Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-31T12:02:54.465084Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-08-31T12:03:54.884833Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-31T12:03:59.886741Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-08-31T12:04:11.831948Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-31T12:04:16.834674Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-08-31T12:04:36.744687Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-31T12:04:41.747482Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-08-31T12:05:03.034180Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-31T12:05:08.036047Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-08-31T12:05:32.814132Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-31T12:05:37.816873Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-08-31T12:06:35.304642Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-31T12:36:35.305186Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-31T12:40:14.826083Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-31T12:40:19.828020Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-08-31T12:41:20.151755Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-31T12:41:25.154318Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-08-31T13:06:35.306868Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-31T13:36:35.307704Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-31T13:40:51.298173Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Pi) agent=None pgid=Some(130222)
+2026-08-31T13:40:54.814753Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Pi) process=pi pgid=Some(439560)
+2026-08-31T13:41:01.454367Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Pi) agent=None pgid=Some(130222)
+2026-08-31T13:41:02.461072Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Pi) process=pi pgid=Some(440010)
+2026-08-31T13:41:06.983066Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Pi) agent=None pgid=Some(130222)
+2026-08-31T13:41:21.050309Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Claude) process=claude pgid=Some(440839)
+2026-08-31T14:06:35.308723Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-31T14:36:35.309969Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-31T15:06:35.311239Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-31T15:35:56.792311Z  INFO herdr::server::headless: client connected client_id=4 cols=159 rows=45 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-08-31T15:36:02.601881Z  INFO herdr::server::headless: client detach requested via keybind client_id=4
+2026-08-31T15:36:02.606964Z  INFO herdr::server::headless: client disconnected client_id=4
+2026-08-31T15:36:35.312143Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-31T16:06:35.312249Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-31T16:36:35.313329Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-31T16:42:12.159652Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-31T16:42:17.161933Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-08-31T16:43:00.422127Z  INFO herdr::server::headless: client detach requested via keybind client_id=2
+2026-08-31T16:43:00.425435Z  INFO herdr::server::headless: client disconnected client_id=2
+2026-08-31T17:06:35.314892Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-31T17:36:35.315771Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-31T18:04:26.744517Z  INFO herdr::server::headless: server shutdown initiated
+2026-08-31T18:04:26.744609Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 1, signal: Some(\"Terminated\") }"
+2026-08-31T18:04:26.762689Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-08-31T18:04:26.794612Z  INFO herdr::server::headless: completing server shutdown
+2026-08-31T18:04:26.794888Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-08-31T18:04:26.794907Z  INFO herdr::server::headless: headless server exiting
+2026-08-31T18:04:26.794988Z  INFO herdr::pane: pane session terminated pane=2 pid=156989 signal=Hangup
+2026-08-31T18:04:26.795072Z  INFO herdr::pane: pane session terminated pane=1 pid=130222 signal=Hangup
+2026-08-31T18:04:26.797860Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=130198
+2026-09-01T10:52:57.785429Z  INFO herdr::api::server: api server listening path=/home/carlos/.config/herdr/sessions/2/herdr.sock
+2026-09-01T10:52:57.789673Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-09-01T10:52:57.792459Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=143836
+2026-09-01T10:52:57.792810Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-09-01T10:52:57.793605Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=143839
+2026-09-01T10:52:57.794098Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-09-01T10:52:57.794109Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-09-01T10:52:57.882156Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-01T10:52:57.884936Z  INFO herdr::server::headless: restored session already has workspaces; ignoring startup cwd cwd=/home/carlos/Workspace/personal/certifica
+2026-09-01T10:52:57.885032Z  INFO herdr::server::headless: client protocol socket listening path=/home/carlos/.config/herdr/sessions/2/herdr-client.sock
+2026-09-01T10:52:57.885052Z  INFO herdr::server::headless: herdr server started api_socket=/home/carlos/.config/herdr/sessions/2/herdr.sock client_socket=/home/carlos/.config/herdr/sessions/2/herdr-client.sock
+2026-09-01T10:52:57.886141Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=143818
+2026-09-01T10:52:57.944097Z  INFO herdr::server::headless: client connected client_id=2 cols=159 rows=45 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-09-01T10:52:59.884455Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-01T10:53:04.886247Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-01T10:53:52.050696Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Claude) process=claude pgid=Some(144959)
+2026-09-01T11:22:57.883471Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-01T11:52:57.885103Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-01T12:22:57.885638Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-01T12:52:57.887764Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-01T13:22:57.889818Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-01T13:52:57.891208Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-01T14:22:57.893092Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-01T14:52:57.894534Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-01T15:22:57.894783Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-01T15:52:57.895827Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-01T16:05:29.772426Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Claude) agent=None pgid=Some(143836)
+2026-09-01T16:05:29.879462Z  INFO herdr::server::headless: client detached client_id=2
+2026-09-01T16:05:29.881054Z  INFO herdr::server::headless: client disconnected client_id=2
+2026-09-01T16:05:36.430161Z  INFO herdr::server::headless: client connected client_id=4 cols=159 rows=45 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-09-01T16:05:38.945857Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-01T16:05:39.561016Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-01T16:05:40.962197Z  INFO herdr::server::headless: client detach requested via keybind client_id=4
+2026-09-01T16:05:40.964218Z  INFO herdr::server::headless: client disconnected client_id=4
+2026-09-01T16:05:44.563605Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-01T16:22:57.897173Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-01T16:52:57.897821Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-01T17:22:57.898930Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-01T17:43:36.371076Z  INFO herdr::server::headless: server shutdown initiated
+2026-09-01T17:43:36.374299Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 1, signal: Some(\"Terminated\") }"
+2026-09-01T17:43:36.380084Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-09-01T17:43:36.421206Z  INFO herdr::server::headless: completing server shutdown
+2026-09-01T17:43:36.421502Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-01T17:43:36.421525Z  INFO herdr::server::headless: headless server exiting
+2026-09-01T17:43:36.421633Z  INFO herdr::pane: pane session terminated pane=2 pid=143839 signal=Hangup
+2026-09-01T17:43:36.421655Z  INFO herdr::pane: pane session terminated pane=1 pid=143836 signal=Hangup
+2026-09-01T17:43:36.422988Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=143818
+2026-09-23T10:11:28.276002Z  INFO herdr::api::server: api server listening path=/home/carlos/.config/herdr/sessions/2/herdr.sock
+2026-09-23T10:11:28.278386Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-09-23T10:11:28.279643Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=289647
+2026-09-23T10:11:28.279914Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-09-23T10:11:28.280931Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=289650
+2026-09-23T10:11:28.281592Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-09-23T10:11:28.281618Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-09-23T10:11:28.375823Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-23T10:11:28.376106Z  INFO herdr::server::headless::bootstrap: restored session already has workspaces; ignoring startup cwd cwd=/home/carlos/Workspace/mb/mars-beacon
+2026-09-23T10:11:28.376173Z  INFO herdr::server::headless: client protocol socket listening path=/home/carlos/.config/herdr/sessions/2/herdr-client.sock
+2026-09-23T10:11:28.376216Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/carlos/.config/herdr/sessions/2/herdr.sock client_socket=/home/carlos/.config/herdr/sessions/2/herdr-client.sock
+2026-09-23T10:11:28.376296Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=289629
+2026-09-23T10:11:28.489071Z  INFO herdr::server::headless: client connected client_id=2 cols=155 rows=44 cell_width_px=18 cell_height_px=38 surface_active=true render_encoding=SemanticFrame
+2026-09-23T10:11:31.845810Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Claude) process=claude pgid=Some(290386)
+2026-09-23T10:11:34.859787Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Claude) agent=None pgid=Some(289647)
+2026-09-23T10:11:46.406871Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Claude) process=claude pgid=Some(291296)
+2026-09-23T10:20:59.403312Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-23T10:20:59.403379Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-23T10:21:04.406943Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-23T10:21:38.474059Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-23T10:21:38.474139Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-23T10:21:43.476488Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-23T10:41:28.377306Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-23T11:06:49.228757Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-23T11:06:49.228805Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-23T11:06:51.271238Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-23T11:06:51.271311Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-23T11:06:56.272533Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-23T11:11:28.378505Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-23T11:41:28.379301Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-23T12:11:28.380322Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-23T12:41:28.382398Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-23T13:11:28.383145Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-23T13:41:28.384863Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-23T14:11:28.386615Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-23T14:18:08.278632Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Claude) agent=None pgid=Some(289647)
+2026-09-23T14:18:28.371487Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Claude) process=claude pgid=Some(925063)
+2026-09-23T14:19:03.662847Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-23T14:19:03.662937Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-23T14:19:08.665370Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-23T14:19:56.623046Z  INFO herdr::pane: agent changed pane=2 previous_agent=None agent=Some(Claude) process=claude pgid=Some(929011)
+2026-09-23T14:28:04.628684Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-23T14:28:04.628786Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-23T14:28:05.450684Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-23T14:28:05.450772Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-23T14:28:08.187737Z  INFO herdr::pane: agent changed pane=2 previous_agent=Some(Claude) agent=None pgid=Some(289650)
+2026-09-23T14:28:10.452681Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-23T14:39:04.449927Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-23T14:39:04.449978Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-23T14:39:09.451315Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-23T14:41:28.387534Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-23T15:11:28.388346Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-23T15:41:28.389423Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-23T16:11:28.390332Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-23T16:41:28.391921Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-23T17:11:28.392887Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-23T17:41:28.394917Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-23T18:11:28.397110Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-23T18:41:28.398896Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-23T19:11:28.401340Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-23T19:41:28.402952Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-23T20:11:28.404394Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-23T20:41:28.405381Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-23T21:11:28.406173Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-23T21:41:28.407265Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-23T22:11:28.408412Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-23T22:41:28.409070Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-23T23:11:28.410426Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-23T23:41:28.411059Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T00:11:28.412283Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T00:41:28.413851Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T01:11:28.415450Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T01:41:28.416619Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T02:11:28.417200Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T02:41:28.418093Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T03:11:28.419561Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T03:41:28.420303Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T04:11:28.421952Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T04:41:28.424350Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T05:11:28.426078Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T05:41:28.427257Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T06:11:28.429098Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T06:41:28.430752Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T06:55:35.158251Z  INFO herdr::server::headless: client connected client_id=4 cols=155 rows=44 cell_width_px=18 cell_height_px=38 surface_active=true render_encoding=SemanticFrame
+2026-09-24T06:55:37.605707Z  INFO herdr::server::headless: client detached client_id=4
+2026-09-24T07:11:09.847606Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-24T07:11:09.847658Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-24T07:11:14.850940Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-24T07:11:15.289328Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-24T07:11:15.289380Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-24T07:11:20.291982Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-24T07:11:26.037173Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-24T07:11:26.037276Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-24T07:11:27.202031Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-24T07:11:27.202141Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-24T07:11:28.432333Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T07:11:32.204257Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-24T07:20:04.994257Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-24T07:20:04.994373Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-24T07:20:09.996758Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-24T07:20:49.138728Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-24T07:20:49.138840Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-24T07:20:54.140099Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-24T07:21:11.382411Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-24T07:21:11.382554Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-24T07:21:16.384899Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-24T07:21:22.468240Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-24T07:21:22.468299Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-24T07:21:27.470300Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-24T07:41:28.432923Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T07:56:40.730214Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-24T07:56:40.732101Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-24T07:56:45.733304Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-24T08:03:02.406426Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-24T08:03:02.406559Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-24T08:03:07.409306Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-24T08:11:28.434614Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T08:41:28.436872Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T08:44:11.970554Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-24T08:44:11.970624Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-24T08:44:16.971904Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-24T08:44:18.318796Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-24T08:44:18.318853Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-24T08:44:23.320769Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-24T08:45:50.636532Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-24T08:45:50.636599Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-24T08:45:55.637998Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-24T08:45:55.952789Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-24T08:45:55.952871Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-24T08:46:00.954820Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-24T09:11:28.439558Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T09:41:28.440211Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T10:11:28.441339Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T10:41:28.442644Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T10:41:46.372110Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-24T10:41:46.372184Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-24T10:41:50.189441Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-24T10:41:50.189496Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-24T10:41:55.191752Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-24T11:11:28.443119Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T11:41:28.444810Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T12:11:28.447246Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T12:41:28.449027Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T13:11:28.450868Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T13:41:28.452951Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T14:11:28.454315Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T14:15:52.316863Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-24T14:15:52.316914Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-24T14:15:53.504958Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-24T14:15:53.505063Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-24T14:15:58.508782Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-24T14:41:28.455039Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T15:11:28.456700Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T15:24:00.957997Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-24T15:24:00.958070Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-24T15:24:05.959281Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-24T15:26:32.771805Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-24T15:26:32.771852Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-24T15:26:37.773848Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-24T15:26:45.295729Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-24T15:26:45.295819Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-24T15:26:46.383974Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-24T15:26:46.384059Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-24T15:26:51.396041Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-24T15:30:02.873736Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-24T15:30:02.873787Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-24T15:30:07.876898Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-24T15:34:59.343588Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-24T15:34:59.343641Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-24T15:35:04.345322Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-24T15:35:38.404957Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-24T15:35:38.405037Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-24T15:35:43.406507Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-24T15:39:40.204421Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-24T15:39:40.204467Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-24T15:39:45.206282Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-24T15:41:28.456926Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T16:11:28.458495Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T16:41:28.459401Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T17:11:28.460430Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T17:41:28.462244Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T18:11:28.463706Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T18:41:28.464459Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T19:11:28.465978Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T19:41:28.467979Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T20:11:28.469394Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T20:41:28.470738Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T21:11:28.471230Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T21:41:28.472823Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T22:11:28.474836Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T22:41:28.477112Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T23:11:28.478800Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-24T23:41:28.481218Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T00:11:28.482434Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T00:41:28.484010Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T01:11:28.485393Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T01:41:28.486350Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T02:11:28.488161Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T02:41:28.490267Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T03:11:28.491843Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T03:41:28.494409Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T04:11:28.495849Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T04:41:28.497460Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T05:11:28.499043Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T05:41:28.501113Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T06:11:28.502377Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T06:25:06.571707Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T06:25:06.571796Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T06:25:11.573401Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T06:25:15.924097Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T06:25:15.924202Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T06:25:20.926063Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T06:41:28.503314Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T06:41:31.340011Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Claude) agent=None pgid=Some(289647)
+2026-09-25T06:41:38.881207Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Claude) process=claude pgid=Some(929035)
+2026-09-25T06:50:42.995160Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T06:50:42.995216Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T06:50:47.997079Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T06:51:11.663558Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T06:51:11.663674Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T06:51:16.665832Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T07:11:28.504139Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T07:41:28.504956Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T07:44:12.804972Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T07:44:12.805040Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T07:44:17.807119Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T07:44:58.562294Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=44 cols=155 scrollback_limit_bytes=10000000
+2026-09-25T07:44:58.564248Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=1038769
+2026-09-25T07:44:58.564430Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-09-25T07:45:03.568989Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T07:45:54.466691Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T07:45:54.466764Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T07:45:59.468787Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T07:46:16.504497Z  INFO herdr::pane: agent changed pane=2 previous_agent=None agent=Some(Claude) process=claude pgid=Some(1043179)
+2026-09-25T07:46:18.265403Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-09-25T07:46:18.265549Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-09-25T07:46:23.267607Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T07:47:25.333520Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T07:47:25.333586Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T07:47:27.568933Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T07:47:27.568993Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T07:47:28.409825Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T07:47:28.409890Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T07:47:30.937252Z  INFO herdr::pane: agent changed pane=2 previous_agent=Some(Claude) agent=None pgid=Some(1045152)
+2026-09-25T07:47:33.411436Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T07:47:38.377458Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-09-25T07:47:38.377572Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-09-25T07:47:43.380916Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T07:47:55.708441Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T07:47:55.708492Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T07:48:00.710789Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T07:48:03.877039Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-09-25T07:48:03.877089Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-09-25T07:48:08.878895Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T07:48:14.503452Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T07:48:14.503584Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T07:48:19.506363Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T07:48:45.768933Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T07:48:45.768987Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T07:48:46.574929Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T07:48:46.575022Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T07:48:51.576981Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T07:49:02.615137Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T07:49:02.615237Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T07:49:06.341351Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T07:49:06.341469Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T07:49:08.459229Z  INFO herdr::pane: agent changed pane=2 previous_agent=None agent=Some(Claude) process=claude pgid=Some(1048339)
+2026-09-25T07:49:11.343980Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T07:51:17.258047Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T07:51:17.258118Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T07:51:20.119236Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T07:51:20.119320Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T07:51:25.121894Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T07:58:35.929397Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-09-25T07:58:35.929462Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-09-25T07:58:40.931263Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T07:59:01.488103Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T07:59:01.488198Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T07:59:06.490127Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T07:59:16.173490Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T07:59:16.173566Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T07:59:17.297868Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T07:59:17.297958Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T07:59:22.300359Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T08:02:47.367185Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-09-25T08:02:47.367269Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-09-25T08:02:52.369342Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T08:03:45.689634Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T08:03:45.689730Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T08:03:50.692284Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T08:04:10.827399Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-09-25T08:04:10.827489Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-09-25T08:04:15.829717Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T08:04:20.600950Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T08:04:20.601012Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T08:04:25.602627Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T08:10:30.115162Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-09-25T08:10:30.115260Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-09-25T08:10:35.118206Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T08:11:24.423481Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T08:11:24.423619Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T08:11:26.465328Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=44 cols=155 scrollback_limit_bytes=10000000
+2026-09-25T08:11:26.467152Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=1088306
+2026-09-25T08:11:26.467342Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t4"
+2026-09-25T08:11:28.506568Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T08:11:29.445961Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-09-25T08:11:29.446011Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-09-25T08:11:34.447810Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T08:11:42.286902Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t4"
+2026-09-25T08:11:42.287000Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t4"
+2026-09-25T08:11:47.288202Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T08:11:52.385018Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=4 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-09-25T08:11:52.392325Z  INFO herdr::pane: pane session terminated pane=4 pid=1088306 signal=Hangup
+2026-09-25T08:11:52.392733Z  WARN herdr::app::actions: PaneDied for unknown pane pane=4
+2026-09-25T08:11:57.394051Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T08:19:04.832086Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T08:19:04.832141Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T08:19:05.315392Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-09-25T08:19:05.315462Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t3"
+2026-09-25T08:19:06.700598Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-09-25T08:19:06.707063Z  INFO herdr::pane: pane session terminated pane=3 pid=1038769 signal=Hangup
+2026-09-25T08:19:06.707384Z  WARN herdr::app::actions: PaneDied for unknown pane pane=3
+2026-09-25T08:19:11.719981Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T08:19:30.210358Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=5 rows=44 cols=155 scrollback_limit_bytes=10000000
+2026-09-25T08:19:30.213138Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=5 pid=1096661
+2026-09-25T08:19:30.213353Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t5"
+2026-09-25T08:19:35.218700Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T08:20:12.579584Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T08:20:12.579706Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T08:20:17.582111Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T08:20:31.247772Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t5"
+2026-09-25T08:20:31.247862Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t5"
+2026-09-25T08:20:36.249848Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T08:21:19.315443Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T08:21:19.315580Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T08:21:24.317685Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T08:22:02.606628Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T08:22:02.606676Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T08:22:05.177169Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T08:22:05.177241Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T08:22:10.178891Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T08:26:30.637177Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T08:26:30.637232Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T08:26:35.309269Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T08:26:35.309353Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T08:26:35.897020Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t5"
+2026-09-25T08:26:35.897109Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t5"
+2026-09-25T08:26:40.898272Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T08:26:44.599020Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T08:26:44.599075Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T08:26:45.191918Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T08:26:45.192009Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T08:26:48.171110Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T08:26:48.171210Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T08:26:53.173159Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T08:41:28.507924Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T08:48:40.844769Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t5"
+2026-09-25T08:48:40.844853Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t5"
+2026-09-25T08:48:45.846532Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T08:48:46.388699Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T08:48:46.388802Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T08:48:51.390645Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T08:49:56.076854Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t5"
+2026-09-25T08:49:56.076995Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t5"
+2026-09-25T08:50:01.078963Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T09:11:28.509650Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T09:18:38.213443Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T09:18:38.213491Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T09:18:43.215392Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T09:41:28.509894Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T10:11:28.511778Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T10:15:47.775762Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T10:15:47.775862Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T10:15:49.185774Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t5"
+2026-09-25T10:15:49.185849Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t5"
+2026-09-25T10:15:54.188572Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T10:16:01.866015Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T10:16:01.866070Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T10:16:05.434121Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t5"
+2026-09-25T10:16:05.434177Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t5"
+2026-09-25T10:16:10.435084Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T10:41:28.513482Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T11:09:04.414228Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T11:09:04.414273Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T11:09:07.612925Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t5"
+2026-09-25T11:09:07.613029Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t5"
+2026-09-25T11:09:09.426567Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T11:09:09.426628Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T11:09:10.552253Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T11:09:10.552320Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T11:09:15.554001Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T11:09:16.072975Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t5"
+2026-09-25T11:09:16.073096Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t5"
+2026-09-25T11:09:21.074905Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T11:09:26.903472Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=5 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-09-25T11:09:26.909474Z  INFO herdr::pane: pane session terminated pane=5 pid=1096661 signal=Hangup
+2026-09-25T11:09:26.910093Z  WARN herdr::app::actions: PaneDied for unknown pane pane=5
+2026-09-25T11:09:30.117141Z  INFO herdr::pane: agent changed pane=2 previous_agent=Some(Claude) agent=None pgid=Some(289650)
+2026-09-25T11:09:31.911752Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T11:09:33.793525Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T11:09:33.793609Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T11:09:38.795663Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T11:11:28.514789Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T11:12:15.055858Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T11:12:15.055950Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T11:12:20.057555Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T11:12:23.639557Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T11:12:23.639620Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T11:12:28.641847Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T11:13:24.084327Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T11:13:24.084423Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T11:13:29.092903Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T11:15:13.279661Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T11:15:13.279732Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T11:15:18.281664Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T11:15:24.169678Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T11:15:24.169726Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-25T11:15:28.429772Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=6 rows=44 cols=155 scrollback_limit_bytes=10000000
+2026-09-25T11:15:28.431634Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=6 pid=1283303
+2026-09-25T11:15:28.431824Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t6"
+2026-09-25T11:15:33.436190Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T11:15:43.652280Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=6 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-09-25T11:15:43.658031Z  INFO herdr::pane: pane session terminated pane=6 pid=1283303 signal=Hangup
+2026-09-25T11:15:43.658278Z  WARN herdr::app::actions: PaneDied for unknown pane pane=6
+2026-09-25T11:15:46.269586Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T11:15:46.269653Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-25T11:15:51.271950Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-25T11:41:28.516984Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T12:11:28.519245Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T12:41:28.520081Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T12:52:23.614013Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Claude) agent=None pgid=Some(289647)
+2026-09-25T12:52:25.598592Z  INFO herdr::server::headless: client detached client_id=2
+2026-09-25T13:11:28.521859Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T13:41:28.523716Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T14:11:28.524337Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T14:41:28.525708Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T15:11:28.526425Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T15:41:28.527262Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T16:11:28.528686Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T16:41:28.530494Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T17:11:28.532105Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T17:41:28.533424Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T18:11:28.533942Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T18:41:28.535907Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T19:11:28.537999Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T19:41:28.540260Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T20:11:28.542654Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T20:41:28.543896Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T21:11:28.545208Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T21:41:28.547230Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T22:11:28.548534Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T22:41:28.549639Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T23:11:28.550864Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-25T23:41:28.552896Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T00:11:28.555045Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T00:41:28.556724Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T01:11:28.557695Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T01:41:28.559218Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T02:11:28.560951Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T02:41:28.562420Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T03:11:28.563992Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T03:41:28.565540Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T04:11:28.566389Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T04:41:28.567961Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T05:11:28.569947Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T05:41:28.572144Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T06:11:28.572814Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T06:41:28.574385Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T07:11:28.576079Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T07:41:28.577629Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T08:11:28.579242Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T08:41:28.580864Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T09:11:28.581604Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T09:41:28.582731Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T10:11:28.584615Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T10:41:28.585074Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T11:11:28.586671Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T11:41:28.587794Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T12:11:28.588406Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T12:41:28.589845Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T13:11:28.591599Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T13:41:28.593022Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T14:11:28.594862Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T14:41:28.596478Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T15:11:28.598130Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T15:41:28.600248Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T16:11:28.601608Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T16:41:28.602174Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T17:11:28.603838Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T17:41:28.605693Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T18:11:28.606994Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T18:41:28.609160Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T19:11:28.611143Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T19:41:28.613259Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T20:11:28.614457Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T20:41:28.616370Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T21:11:28.617744Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-26T21:15:57.715669Z  INFO herdr::server::headless::lifecycle: server shutdown initiated
+2026-09-26T21:15:57.724376Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 1, signal: Some(\"Terminated\") }"
+2026-09-26T21:15:57.725240Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-09-26T21:15:57.765794Z  INFO herdr::server::headless::lifecycle: completing server shutdown
+2026-09-26T21:15:57.766075Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-26T21:15:57.766094Z  INFO herdr::server::headless: headless server exiting
+2026-09-26T21:15:57.766248Z  INFO herdr::pane: pane session terminated pane=1 pid=289647 signal=Hangup
+2026-09-26T21:15:57.766286Z  INFO herdr::pane: pane session terminated pane=2 pid=289650 signal=Hangup
+2026-09-26T21:15:57.770041Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=289629
+2026-09-30T11:25:22.486418Z  INFO herdr::api::server: api server listening path=/home/carlos/.config/herdr/sessions/2/herdr.sock
+2026-09-30T11:25:22.490550Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-09-30T11:25:22.491538Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=21056
+2026-09-30T11:25:22.491777Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-09-30T11:25:22.492723Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=21059
+2026-09-30T11:25:22.493416Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-09-30T11:25:22.493461Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-09-30T11:25:22.587349Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-30T11:25:22.587854Z  INFO herdr::server::headless::bootstrap: restored session already has workspaces; ignoring startup cwd cwd=/home/carlos/Workspace/mb/dreaming/dreaming
+2026-09-30T11:25:22.587913Z  INFO herdr::server::headless: client protocol socket listening path=/home/carlos/.config/herdr/sessions/2/herdr-client.sock
+2026-09-30T11:25:22.587938Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/carlos/.config/herdr/sessions/2/herdr.sock client_socket=/home/carlos/.config/herdr/sessions/2/herdr-client.sock
+2026-09-30T11:25:22.588015Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=21037
+2026-09-30T11:25:22.643902Z  INFO herdr::server::headless: client connected client_id=2 cols=155 rows=44 cell_width_px=18 cell_height_px=38 surface_active=true render_encoding=SemanticFrame
+2026-09-30T11:25:31.072462Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Claude) process=claude pgid=Some(21708)
+2026-09-30T11:36:50.027863Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-30T11:36:50.027936Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-30T11:36:50.552436Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-30T11:36:50.552519Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-30T11:36:55.572405Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json backup_path=/home/carlos/.config/herdr/sessions/2/session-snapshots/session-000000000000000000001790768215553362946-21037-0.json
+2026-09-30T11:36:55.573348Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-30T11:37:46.389468Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-30T11:37:46.389516Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-09-30T11:37:51.390989Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-30T11:38:35.988347Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-30T11:38:35.988443Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-30T11:38:40.991069Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-30T11:55:22.589835Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-30T12:12:58.495670Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Claude) agent=None pgid=Some(21056)
+2026-09-30T12:12:58.661936Z  INFO herdr::server::headless: client detached client_id=2
+2026-09-30T12:13:02.900206Z  INFO herdr::platform::linux::shutdown: host shutdown requested; preserving session before pane termination
+2026-09-30T12:13:02.900356Z  INFO herdr::server::headless::lifecycle: server shutdown initiated
+2026-09-30T12:13:02.950508Z  INFO herdr::server::headless::lifecycle: completing server shutdown
+2026-09-30T12:13:02.973895Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json backup_path=/home/carlos/.config/herdr/sessions/2/session-snapshots/session-000000000000000000001790770382950832048-21037-0.json
+2026-09-30T12:13:02.974319Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-09-30T12:13:02.974335Z  INFO herdr::server::headless: headless server exiting
+2026-09-30T12:13:02.976392Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-09-30T12:13:02.981641Z  INFO herdr::pane: pane session terminated pane=1 pid=21056 signal=Hangup
+2026-09-30T12:13:02.984659Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-09-30T12:13:02.990580Z  INFO herdr::pane: pane session terminated pane=2 pid=21059 signal=Hangup
+2026-09-30T12:13:02.992102Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=21037
+2026-10-01T10:40:48.614455Z  INFO herdr::api::server: api server listening path=/home/carlos/.config/herdr/sessions/2/herdr.sock
+2026-10-01T10:40:48.616658Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-10-01T10:40:48.617989Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=165394
+2026-10-01T10:40:48.618365Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-10-01T10:40:48.619520Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=165397
+2026-10-01T10:40:48.619939Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-10-01T10:40:48.619977Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-10-01T10:40:48.713056Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-01T10:40:48.713620Z  INFO herdr::server::headless::bootstrap: restored session already has workspaces; ignoring startup cwd cwd=/home/carlos/Workspace/mb/dreaming/dreaming
+2026-10-01T10:40:48.713683Z  INFO herdr::server::headless: client protocol socket listening path=/home/carlos/.config/herdr/sessions/2/herdr-client.sock
+2026-10-01T10:40:48.713722Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/carlos/.config/herdr/sessions/2/herdr.sock client_socket=/home/carlos/.config/herdr/sessions/2/herdr-client.sock
+2026-10-01T10:40:48.713828Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=165375
+2026-10-01T10:40:48.774867Z  INFO herdr::server::headless: client connected client_id=2 cols=155 rows=44 cell_width_px=18 cell_height_px=38 surface_active=true render_encoding=SemanticFrame
+2026-10-01T10:40:58.715003Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Claude) process=claude pgid=Some(166391)
+2026-10-01T13:06:36.004938Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-01T13:20:26.055203Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-01T13:20:26.055271Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-01T13:20:31.070488Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json backup_path=/home/carlos/.config/herdr/sessions/2/session-snapshots/session-000000000000000000001790860831059320445-165375-0.json
+2026-10-01T13:20:31.070568Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-01T13:21:24.164046Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T13:21:24.164137Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T13:21:29.166381Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-01T13:36:36.005492Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-01T13:54:11.969592Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-01T13:54:11.969699Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-01T13:54:16.999431Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json backup_path=/home/carlos/.config/herdr/sessions/2/session-snapshots/session-000000000000000000001790862856970891242-165375-0.json
+2026-10-01T13:54:16.999941Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-01T13:54:59.569762Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T13:54:59.569833Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T13:55:04.571060Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-01T13:58:54.403767Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-01T13:58:54.403844Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-01T13:58:56.490102Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T13:58:56.490165Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T13:58:59.024220Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=44 cols=155 scrollback_limit_bytes=10000000
+2026-10-01T13:58:59.029338Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=375636
+2026-10-01T13:58:59.029590Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t7"
+2026-10-01T13:59:04.032743Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-01T13:59:15.735910Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-01T13:59:15.736008Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-01T13:59:17.272579Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T13:59:17.272663Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T13:59:22.274580Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-01T14:06:36.006803Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-01T14:07:58.353348Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-01T14:07:58.353445Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-01T14:08:03.355680Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-01T14:08:44.183615Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T14:08:44.183708Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T14:08:49.186011Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-01T14:12:01.009345Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-01T14:12:01.009451Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-01T14:12:02.351360Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t7"
+2026-10-01T14:12:02.351452Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t7"
+2026-10-01T14:12:07.369048Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json backup_path=/home/carlos/.config/herdr/sessions/2/session-snapshots/session-000000000000000000001790863927352994432-165375-0.json
+2026-10-01T14:12:07.369406Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-01T14:14:13.161029Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T14:14:13.161095Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T14:14:18.163619Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-01T14:14:22.465471Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-01T14:14:22.465541Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-01T14:14:24.393109Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t7"
+2026-10-01T14:14:24.393203Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t7"
+2026-10-01T14:14:29.395554Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-01T14:14:34.998035Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T14:14:34.998148Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T14:14:40.000942Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-01T14:29:09.737421Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-01T14:29:09.737513Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-01T14:29:14.755555Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json backup_path=/home/carlos/.config/herdr/sessions/2/session-snapshots/session-000000000000000000001790864954739703231-165375-0.json
+2026-10-01T14:29:14.755681Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-01T14:36:36.007630Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-01T14:46:04.020326Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T14:46:04.020442Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T14:46:05.474807Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-01T14:46:05.474876Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-01T14:46:11.197198Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json backup_path=/home/carlos/.config/herdr/sessions/2/session-snapshots/session-000000000000000000001790865971184279258-165375-0.json
+2026-10-01T14:46:11.197278Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-01T15:03:55.821869Z  INFO herdr::pane: agent changed pane=2 previous_agent=None agent=Some(Pi) process=pi pgid=Some(481376)
+2026-10-01T15:06:36.009511Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-01T16:03:34.951543Z  INFO herdr::pane: agent changed pane=2 previous_agent=Some(Pi) agent=None pgid=Some(165397)
+2026-10-01T16:03:46.535779Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T16:03:46.535930Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-01T16:03:50.937241Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t7"
+2026-10-01T16:03:50.937341Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t7"
+2026-10-01T16:03:55.970307Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json backup_path=/home/carlos/.config/herdr/sessions/2/session-snapshots/session-000000000000000000001790870635943953012-165375-0.json
+2026-10-01T16:03:55.970479Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-01T16:10:11.529260Z  INFO herdr::server::headless: client detached client_id=2
+2026-10-01T16:13:42.388148Z  INFO herdr::platform::linux::shutdown: host shutdown requested; preserving session before pane termination
+2026-10-01T16:13:42.388217Z  INFO herdr::server::headless::lifecycle: server shutdown initiated
+2026-10-01T16:13:42.438321Z  INFO herdr::server::headless::lifecycle: completing server shutdown
+2026-10-01T16:13:42.439030Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-01T16:13:42.439060Z  INFO herdr::server::headless: headless server exiting
+2026-10-01T16:13:42.442946Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-10-01T16:13:42.447921Z  INFO herdr::pane: pane session terminated pane=2 pid=165397 signal=Hangup
+2026-10-01T16:13:42.450164Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-10-01T16:13:42.456752Z  INFO herdr::pane: pane session terminated pane=3 pid=375636 signal=Hangup
+2026-10-01T16:13:42.457191Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Terminated\") }"
+2026-10-01T16:13:43.029572Z  INFO herdr::pane: pane session terminated pane=1 pid=165394 signal=Kill
+2026-10-01T16:13:43.031163Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=165375
+2026-10-05T09:39:06.343881Z  INFO herdr::api::server: api server listening path=/home/carlos/.config/herdr/sessions/2/herdr.sock
+2026-10-05T09:39:06.345733Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-10-05T09:39:06.347122Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=261278
+2026-10-05T09:39:06.347479Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-10-05T09:39:06.348404Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=261281
+2026-10-05T09:39:06.348695Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-10-05T09:39:06.349649Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=261284
+2026-10-05T09:39:06.349924Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-10-05T09:39:06.349961Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-10-05T09:39:06.477157Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T09:39:06.477837Z  INFO herdr::server::headless::bootstrap: restored session already has workspaces; ignoring startup cwd cwd=/home/carlos/Workspace/mb/dreaming/dreaming
+2026-10-05T09:39:06.477936Z  INFO herdr::server::headless: client protocol socket listening path=/home/carlos/.config/herdr/sessions/2/herdr-client.sock
+2026-10-05T09:39:06.477981Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/carlos/.config/herdr/sessions/2/herdr.sock client_socket=/home/carlos/.config/herdr/sessions/2/herdr-client.sock
+2026-10-05T09:39:06.478107Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=261259
+2026-10-05T09:39:06.495131Z  INFO herdr::server::headless: client connected client_id=2 cols=155 rows=44 cell_width_px=18 cell_height_px=38 surface_active=true render_encoding=SemanticFrame
+2026-10-05T09:39:10.699628Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-10-05T09:39:10.705129Z  INFO herdr::pane: pane session terminated pane=3 pid=261284 signal=Hangup
+2026-10-05T09:39:10.705483Z  WARN herdr::app::actions: PaneDied for unknown pane pane=3
+2026-10-05T09:39:11.944208Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-05T09:39:11.944271Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-05T09:39:16.957132Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json backup_path=/home/carlos/.config/herdr/sessions/2/session-snapshots/session-000000000000000000001791193156946781121-261259-0.json
+2026-10-05T09:39:16.957185Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-05T09:39:18.438900Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Claude) process=claude pgid=Some(262359)
+2026-10-05T09:39:26.149668Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-05T09:39:26.149741Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-05T09:39:29.915568Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-05T09:39:29.915619Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-05T09:39:34.917607Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-05T10:09:06.479163Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T10:20:47.820785Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-05T10:20:47.820849Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-05T10:20:52.839431Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json backup_path=/home/carlos/.config/herdr/sessions/2/session-snapshots/session-000000000000000000001791195652822246573-261259-0.json
+2026-10-05T10:20:52.839645Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-05T10:22:04.765278Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-05T10:22:04.765360Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-05T10:22:09.767948Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-05T10:39:06.479552Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T11:09:06.481144Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T11:39:06.482488Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T12:02:40.913835Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-05T12:02:40.913925Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-05T12:02:45.930750Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json backup_path=/home/carlos/.config/herdr/sessions/2/session-snapshots/session-000000000000000000001791201765916321806-261259-0.json
+2026-10-05T12:02:45.930872Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-05T12:03:00.587156Z  INFO herdr::server::headless: client detached client_id=2
+2026-10-05T12:09:06.482761Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T12:39:06.483622Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T13:09:06.485047Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T13:39:06.486011Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T14:09:06.487911Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T14:39:06.489527Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T15:09:06.489873Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T15:39:06.490586Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T16:09:06.492636Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T16:16:08.719637Z  INFO herdr::server::headless: client connected client_id=4 cols=155 rows=44 cell_width_px=18 cell_height_px=38 surface_active=true render_encoding=SemanticFrame
+2026-10-05T16:16:18.346128Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-05T16:16:18.346250Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-05T16:16:22.243657Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Claude) agent=None pgid=Some(261278)
+2026-10-05T16:16:23.362829Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json backup_path=/home/carlos/.config/herdr/sessions/2/session-snapshots/session-000000000000000000001791216983351542258-261259-0.json
+2026-10-05T16:16:23.362920Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-05T16:16:28.268326Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Pi) process=pi pgid=Some(1003355)
+2026-10-05T16:16:32.081007Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-05T16:16:32.081052Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-05T16:16:37.082322Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-05T16:17:05.532091Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-05T16:17:05.532203Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-05T16:17:10.535832Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-05T16:19:34.012775Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-05T16:19:34.012817Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-05T16:19:36.454029Z  INFO herdr::server::headless: client detached client_id=4
+2026-10-05T16:19:39.014666Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-05T16:19:41.204507Z  INFO herdr::server::headless: client connected client_id=6 cols=155 rows=44 cell_width_px=18 cell_height_px=38 surface_active=true render_encoding=SemanticFrame
+2026-10-05T16:19:43.279030Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-05T16:19:43.279098Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-05T16:19:48.280863Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-05T16:39:06.493128Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T17:09:06.495055Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T17:39:06.497178Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T18:09:06.498450Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T18:39:06.498825Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T19:09:06.500503Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T19:39:06.501407Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T20:09:06.501774Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T20:39:06.503595Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T21:09:06.504829Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T21:39:06.505847Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T22:09:06.507667Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T22:39:06.509096Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T23:09:06.509738Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-05T23:39:06.511204Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T00:09:06.512345Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T00:39:06.513620Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T01:09:06.515333Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T01:39:06.516426Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T02:09:06.517282Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T02:39:06.518249Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T03:09:06.518932Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T03:39:06.520674Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T04:09:06.522634Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T04:39:06.524501Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T05:09:06.525700Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T05:30:18.960737Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T05:30:18.960826Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T05:30:23.976113Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json backup_path=/home/carlos/.config/herdr/sessions/2/session-snapshots/session-000000000000000000001791264623962975345-261259-0.json
+2026-10-06T05:30:23.976182Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-06T05:30:25.745323Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-06T05:30:25.745447Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-06T05:30:30.747455Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-06T05:30:43.064672Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T05:30:43.064767Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T05:30:48.067634Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-06T05:30:58.510712Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-06T05:30:58.510800Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-06T05:31:03.523685Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-06T05:32:18.932670Z  INFO herdr::server::headless: client detached client_id=6
+2026-10-06T05:32:26.960338Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Pi) agent=None pgid=Some(261278)
+2026-10-06T05:39:06.527501Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T06:09:06.528629Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T06:39:06.530609Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T07:09:06.532164Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T07:24:57.183655Z  INFO herdr::server::headless: client connected client_id=8 cols=155 rows=44 cell_width_px=18 cell_height_px=38 surface_active=true render_encoding=SemanticFrame
+2026-10-06T07:25:06.793293Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Claude) process=claude pgid=Some(1777214)
+2026-10-06T07:25:08.319382Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T07:25:08.319521Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T07:25:12.570312Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-06T07:25:12.570385Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-06T07:25:17.584899Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json backup_path=/home/carlos/.config/herdr/sessions/2/session-snapshots/session-000000000000000000001791271517574184876-261259-0.json
+2026-10-06T07:25:17.585230Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-06T07:27:05.088614Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T07:27:05.088683Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T07:27:07.230356Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-06T07:27:07.230406Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-06T07:27:12.233123Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-06T07:39:06.533581Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T07:52:03.467044Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T07:52:03.467138Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T07:52:08.483810Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json backup_path=/home/carlos/.config/herdr/sessions/2/session-snapshots/session-000000000000000000001791273128468060918-261259-0.json
+2026-10-06T07:52:08.484123Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-06T07:52:52.953128Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-06T07:52:52.953227Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-06T07:52:57.954813Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-06T08:09:06.533868Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T08:39:06.534971Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T09:09:06.536632Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T09:39:06.538890Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T09:56:59.289670Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Claude) agent=None pgid=Some(261278)
+2026-10-06T09:57:05.591757Z  INFO herdr::server::headless: client detached client_id=8
+2026-10-06T10:09:06.540892Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T10:39:06.541975Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T11:09:06.543313Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T11:39:06.544747Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T12:09:06.546622Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T12:39:06.548689Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T13:09:06.548646Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T13:39:06.550572Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T14:09:06.551547Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T14:39:06.552349Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T15:09:06.552834Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T15:39:06.553846Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T16:09:06.555329Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T16:39:06.555750Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T17:09:06.557321Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T17:39:06.558055Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T18:09:06.559082Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T18:39:06.560006Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T19:09:06.561414Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T19:39:06.562933Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T20:09:06.564021Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T20:39:06.565997Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T21:09:06.566843Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T21:39:06.568476Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T22:09:06.569108Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T22:39:06.570642Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T23:09:06.572027Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T23:39:06.574319Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T00:09:06.575482Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T00:39:06.577300Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T01:09:06.577989Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T01:39:06.578923Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T02:09:06.580481Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T02:39:06.581647Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T03:09:06.582704Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T03:39:06.584917Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T04:09:06.586925Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T04:39:06.587899Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T05:09:06.589964Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T05:39:06.592142Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T06:09:06.593644Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T06:39:06.594957Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T07:09:06.596100Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T07:39:06.597372Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T08:09:06.598368Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T08:39:06.599436Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T09:09:06.600696Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T09:39:06.602129Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T10:09:06.603021Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T10:39:06.604322Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T11:09:06.605294Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T11:39:06.606373Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T12:09:06.607774Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T12:39:06.609942Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T13:09:06.611184Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T13:39:06.612106Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T14:09:06.613470Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T14:35:33.986418Z  INFO herdr::platform::linux::shutdown: host shutdown requested; preserving session before pane termination
+2026-10-07T14:35:33.986489Z  INFO herdr::server::headless::lifecycle: server shutdown initiated
+2026-10-07T14:35:34.036616Z  INFO herdr::server::headless::lifecycle: completing server shutdown
+2026-10-07T14:35:34.037609Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-07T14:35:34.037632Z  INFO herdr::server::headless: headless server exiting
+2026-10-07T14:35:34.040479Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-10-07T14:35:34.044676Z  INFO herdr::pane: pane session terminated pane=2 pid=261281 signal=Hangup
+2026-10-07T14:35:34.051302Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-10-07T14:35:34.055876Z  INFO herdr::pane: pane session terminated pane=1 pid=261278 signal=Hangup
+2026-10-07T14:35:34.058014Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=261259
+2026-10-09T08:00:46.858155Z  INFO herdr::api::server: api server listening path=/home/carlos/.config/herdr/sessions/2/herdr.sock
+2026-10-09T08:00:46.860612Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-10-09T08:00:46.861973Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=583100
+2026-10-09T08:00:46.862259Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-10-09T08:00:46.863378Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=583103
+2026-10-09T08:00:46.863644Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-10-09T08:00:46.863674Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-10-09T08:00:46.958141Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T08:00:46.958753Z  INFO herdr::server::headless::bootstrap: restored session already has workspaces; ignoring startup cwd cwd=/home/carlos/Workspace/mb/dreaming/dreaming
+2026-10-09T08:00:46.958821Z  INFO herdr::server::headless: client protocol socket listening path=/home/carlos/.config/herdr/sessions/2/herdr-client.sock
+2026-10-09T08:00:46.958874Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/carlos/.config/herdr/sessions/2/herdr.sock client_socket=/home/carlos/.config/herdr/sessions/2/herdr-client.sock
+2026-10-09T08:00:46.958939Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=583081
+2026-10-09T08:00:47.025642Z  INFO herdr::server::headless: client connected client_id=2 cols=155 rows=44 cell_width_px=18 cell_height_px=38 surface_active=true render_encoding=SemanticFrame
+2026-10-09T08:01:32.090176Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Claude) process=claude pgid=Some(584177)
+2026-10-09T08:30:46.960012Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T09:00:46.961974Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T09:30:46.963840Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T10:00:46.965028Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T10:11:00.507523Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-09T10:11:00.507627Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-09T10:11:01.480275Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-09T10:11:01.480372Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-09T10:11:02.676271Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-09T10:11:02.676358Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-09T10:11:07.704073Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json backup_path=/home/carlos/.config/herdr/sessions/2/session-snapshots/session-000000000000000000001791540667682614752-583081-0.json
+2026-10-09T10:11:07.704165Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-09T10:12:57.738173Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-09T10:12:57.738271Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-09T10:13:02.741054Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-09T10:16:52.016087Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-09T10:16:52.016189Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-09T10:16:53.423111Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=44 cols=155 scrollback_limit_bytes=10000000
+2026-10-09T10:16:53.424930Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=867027
+2026-10-09T10:16:53.425122Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t8"
+2026-10-09T10:16:58.429192Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-09T10:17:20.013544Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-09T10:17:20.013636Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-09T10:17:23.482344Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t8"
+2026-10-09T10:17:23.482413Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t8"
+2026-10-09T10:17:28.485067Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-09T10:30:46.966719Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T11:00:46.967991Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T11:08:08.266547Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-09T11:08:08.266668Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-09T11:08:10.078934Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-09T11:08:10.079034Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-09T11:08:10.563074Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t8"
+2026-10-09T11:08:10.563150Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t8"
+2026-10-09T11:08:15.585975Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json backup_path=/home/carlos/.config/herdr/sessions/2/session-snapshots/session-000000000000000000001791544095565805061-583081-0.json
+2026-10-09T11:08:15.586780Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-09T11:08:47.308925Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-09T11:08:47.308979Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-09T11:08:52.311862Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-09T11:09:08.120122Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t8"
+2026-10-09T11:09:08.120221Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t8"
+2026-10-09T11:09:13.122491Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-09T11:09:26.008060Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-09T11:09:26.008150Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-09T11:09:27.921335Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t8"
+2026-10-09T11:09:27.921372Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t8"
+2026-10-09T11:09:32.923236Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-09T11:09:33.432647Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-09T11:09:33.432695Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-09T11:09:38.434979Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-09T11:09:40.609637Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-09T11:09:40.609680Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-09T11:09:45.613062Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-09T11:09:49.206170Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t8"
+2026-10-09T11:09:49.206266Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t8"
+2026-10-09T11:09:54.207699Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-09T11:10:00.378537Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-09T11:10:00.378658Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-09T11:10:01.703535Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t8"
+2026-10-09T11:10:01.703592Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t8"
+2026-10-09T11:10:06.705063Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-09T11:10:06.964731Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-09T11:10:06.964782Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-09T11:10:11.967148Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-09T11:10:13.759901Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-09T11:10:13.759981Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-09T11:10:18.762608Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-09T11:10:25.876170Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t8"
+2026-10-09T11:10:25.876317Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t8"
+2026-10-09T11:10:26.734155Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-09T11:10:26.734202Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-09T11:10:28.236208Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-09T11:10:28.236280Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-09T11:10:33.237970Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-09T11:11:29.491776Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-09T11:11:29.491819Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-09T11:11:34.493897Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-09T11:11:41.679820Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-09T11:11:41.679872Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-09T11:11:46.682194Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-09T11:12:24.911652Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t8"
+2026-10-09T11:12:24.911718Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t8"
+2026-10-09T11:12:29.914279Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-09T11:13:00.559081Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-09T11:13:00.559144Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-09T11:13:02.161537Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t8"
+2026-10-09T11:13:02.161638Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t8"
+2026-10-09T11:13:07.164391Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-09T11:13:30.525126Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-09T11:13:30.525209Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-09T11:13:35.526468Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-09T11:13:41.304975Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-09T11:13:41.305042Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-09T11:13:46.307120Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-09T11:30:46.968784Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T12:00:46.970004Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T12:30:46.972230Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T13:00:46.972615Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T13:30:46.973902Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T14:00:46.975587Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T14:30:46.976783Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T15:00:46.978338Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T15:30:46.979391Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T15:40:12.141876Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-09T15:40:12.141959Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-09T15:40:16.942061Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-10-09T15:40:16.947702Z  INFO herdr::pane: pane session terminated pane=2 pid=583103 signal=Hangup
+2026-10-09T15:40:16.948111Z  WARN herdr::app::actions: PaneDied for unknown pane pane=2
+2026-10-09T15:40:19.561974Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t8"
+2026-10-09T15:40:19.562050Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t8"
+2026-10-09T15:40:23.145592Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-09T15:40:23.145671Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-09T15:40:26.616338Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Claude) agent=None pgid=Some(583100)
+2026-10-09T15:40:28.168263Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json backup_path=/home/carlos/.config/herdr/sessions/2/session-snapshots/session-000000000000000000001791560428148528817-583081-0.json
+2026-10-09T15:40:28.168878Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-09T15:40:28.700429Z  INFO herdr::server::headless: client detached client_id=2
+2026-10-09T16:00:46.980358Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T16:30:46.981543Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T17:00:46.983078Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T17:30:46.984934Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T18:00:46.985453Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T18:30:46.986978Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T19:00:46.987132Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T19:30:46.989082Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T20:00:46.991229Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T20:30:46.993481Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T21:00:46.995269Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T21:30:46.997544Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T22:00:46.999070Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T22:30:47.000844Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T23:00:47.002013Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-09T23:30:47.003401Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T00:00:47.005649Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T00:30:47.006910Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T01:00:47.007835Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T01:30:47.009561Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T02:00:47.011519Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T02:30:47.012443Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T03:00:47.014640Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T03:30:47.015517Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T04:00:47.016610Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T04:30:47.017648Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T05:00:47.019055Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T05:30:47.021579Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T06:00:47.022407Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T06:30:47.023988Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T07:00:47.025426Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T07:30:47.027468Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T08:00:47.028687Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T08:30:47.029733Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T09:00:47.030859Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T09:30:47.032499Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T10:00:47.034399Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T10:30:47.035996Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T11:00:47.037141Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T11:30:47.038964Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T12:00:47.040425Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T12:30:47.041943Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T13:00:47.043134Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T13:30:47.045461Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T14:00:47.046385Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T14:30:47.047389Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T15:00:47.048976Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T15:30:47.049925Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T16:00:47.050546Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T16:30:47.052024Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T17:00:47.054267Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T17:30:47.055969Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T18:00:47.056888Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T18:30:47.057837Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T19:00:47.058862Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T19:30:47.059733Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T20:00:47.061186Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T20:30:47.063595Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T21:00:47.065073Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T21:30:47.066097Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T22:00:47.067889Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T22:30:47.068655Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T23:00:47.070474Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-10T23:30:47.072006Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T00:00:47.074589Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T00:30:47.075779Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T01:00:47.076627Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T01:30:47.078404Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T02:00:47.080372Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T02:30:47.081218Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T03:00:47.082911Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T03:30:47.083956Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T04:00:47.084317Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T04:30:47.086279Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T05:00:47.088403Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T05:30:47.090543Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T06:00:47.092599Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T06:30:47.093919Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T07:00:47.095037Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T07:30:47.097727Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T08:00:47.099198Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T08:30:47.101140Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T09:00:47.103110Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T09:30:47.104881Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T10:00:47.105716Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T10:30:47.106580Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T11:00:47.108091Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T11:30:47.110079Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T12:00:47.111101Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T12:30:47.113125Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T13:00:47.115472Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T13:30:47.116710Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T14:00:47.118193Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T14:30:47.120268Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T15:00:47.122138Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T15:30:47.124008Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T16:00:47.126005Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-11T16:10:22.136861Z  INFO herdr::platform::linux::shutdown: host shutdown requested; preserving session before pane termination
+2026-10-11T16:10:22.136973Z  INFO herdr::server::headless::lifecycle: server shutdown initiated
+2026-10-11T16:10:22.187105Z  INFO herdr::server::headless::lifecycle: completing server shutdown
+2026-10-11T16:10:22.203167Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json backup_path=/home/carlos/.config/herdr/sessions/2/session-snapshots/session-000000000000000000001791735022187718525-583081-0.json
+2026-10-11T16:10:22.203520Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/carlos/.config/herdr/sessions/2/session.json workspaces=1
+2026-10-11T16:10:22.203537Z  INFO herdr::server::headless: headless server exiting
+2026-10-11T16:10:22.207832Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-10-11T16:10:22.213249Z  INFO herdr::pane: pane session terminated pane=1 pid=583100 signal=Hangup
+2026-10-11T16:10:22.217603Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-10-11T16:10:22.222021Z  INFO herdr::pane: pane session terminated pane=3 pid=867027 signal=Hangup
+2026-10-11T16:10:22.223519Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=583081

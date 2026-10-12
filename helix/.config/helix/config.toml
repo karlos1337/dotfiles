@@ -21,9 +21,13 @@ C-g = [
 j = { k = "normal_mode" }
 
 [keys.normal.space]
+m = [
+  ':insert-output glow -p -w %sh{stty size </dev/tty | cut -d" " -f2} "%{buffer_name}" >/dev/tty',
+  ':redraw',
+]
 e = [
   ':sh rm -f /tmp/unique-file-h21a434',
-  ':insert-output yazi "%{buffer_name}" --chooser-file=/tmp/unique-file-h21a434',
+  ':insert-output spf --chooser-file=/tmp/unique-file-h21a434 "%sh{bn="%{buffer_name}"; if [ -f "$bn" ]; then dirname "$bn"; else pwd; fi}" >/dev/tty',
   ':sh printf "\x1b[?1049h\x1b[?2004h" > /dev/tty',
   ':open %sh{cat /tmp/unique-file-h21a434}',
   ':redraw',

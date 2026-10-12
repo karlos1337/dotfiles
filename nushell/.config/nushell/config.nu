@@ -783,6 +783,54 @@ source ~/.local/share/atuin/init.nu
 # zoxide
 source ~/.zoxide.nu
 
+# zoxide completions (Tab includes zoxide DB results)
+def "nu-complete zoxide path" [context: string] {
+    let tokens = ($context | split row " ")
+    let token = ($tokens | last)
+    let dir = ($token | path dirname)
+    let base = ($token | path basename | str downcase)
+    let local = (try {
+        ls -a (if ($dir | is-empty) { "." } else { $dir })
+        | where type == dir
+        | get name
+        | path basename
+        | where {|n| ($n | str downcase) | str starts-with $base }
+        | each {|n| if ($dir | is-empty) { $n } else { $"($dir)/($n)" } }
+    } catch { [] })
+    let query = ($tokens | skip 1)
+    let zox = (^zoxide query --list --exclude $env.PWD -- ...$query | lines)
+    {
+        options: { sort: false, case_sensitive: false, completion_algorithm: "fuzzy" }
+        completions: (($local | each {|p| {value: $p, description: "dir"} }) ++ ($zox | each {|p| {value: $p, description: "zoxide"} }))
+    }
+}
+
+def --env --wrapped __zoxide_z_complete [...rest: string@"nu-complete zoxide path"] {
+    __zoxide_z ...$rest
+}
+alias cd = __zoxide_z_complete
+
 
 # jaq
 alias jq = jaq
+
+# amdgpu eDP freeze diagnosis (Pop!_OS COSMIC + AMD Phoenix3/DCN3.1)
+# laptop panel frozen but external monitor live -> run this
+# positive: 'flip_done timed out' on crtc-0 + 'DMCUB error'
+def freezediag [] {
+  journalctl -k --no-pager
+    | grep --extended-regexp 'flip_done|dmcub|dcn31_program|amdgpu.*(error|hang|reset|timeout)' --ignore-case
+    | tail -20
+}
+
+# direnv
+use std/config *
+$env.config.hooks.env_change.PWD = $env.config.hooks.env_change.PWD? | default []
+$env.config.hooks.env_change.PWD ++= [{||
+  if (which direnv | is-empty) {
+    return
+  }
+
+  direnv export json | from json | default {} | load-env
+  $env.PATH = do (env-conversions).path.from_string $env.PATH
+}]

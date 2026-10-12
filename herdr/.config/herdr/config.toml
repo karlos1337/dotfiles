@@ -1,0 +1,11 @@
+onboarding = false
+[theme]
+name = "one-dark"
+auto_switch = false
+
+[ui.toast]
+delivery = "herdr"
+
+[ui]
+show_agent_labels_on_pane_borders = true
+sidebar_start_collapsed = true
