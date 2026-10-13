@@ -788,13 +788,13 @@ def "nu-complete zoxide path" [context: string] {
     let tokens = ($context | split row " ")
     let token = ($tokens | last)
     let dir = ($token | path dirname)
-    let base = ($token | path basename | str downcase)
+    let base = ($token | path basename | str lowercase)
     let local = (try {
         ls -a (if ($dir | is-empty) { "." } else { $dir })
         | where type == dir
         | get name
         | path basename
-        | where {|n| ($n | str downcase) | str starts-with $base }
+        | where {|n| ($n | str lowercase) | str starts-with $base }
         | each {|n| if ($dir | is-empty) { $n } else { $"($dir)/($n)" } }
     } catch { [] })
     let query = ($tokens | skip 1)
